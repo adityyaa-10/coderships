@@ -54,9 +54,9 @@ const Header = () => {
                     />
                 </div>
             </div>
-            <div className="flex items-center justify-center min-h-[900px] max-h-[900px] px-4 lg:px-56 2xl:px-80 space-y-6 lg:pt-24 w-full">
+            <div className="flex items-center justify-center min-h-[900px] px-4 lg:px-56 2xl:px-80 space-y-6 lg:pt-24 w-full">
                 <div className="relative text-center py-4">
-                    <div className="absolute px-4 py-1 sm:mt-0 -top-4 md:-top-9 left-0 md:left-9 transform -rotate-3 text-base md:text-[20px] font-medium text-white bg-[#3065EE] rounded-[15px]">
+                    <div className="absolute px-4 py-1 sm:mt-0 -top-4 md:-top-5 left-0 md:left-9 transform -rotate-3 text-base md:text-[20px] font-medium text-white bg-[#3065EE] rounded-[15px]">
                         Land your dream internship
                     </div>
                     <h1
