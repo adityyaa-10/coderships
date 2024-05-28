@@ -1,18 +1,16 @@
 "use client";
 import Link from "next/link";
 import { useState } from "react";
-import localfont from "next/font/local"
+import localfont from "next/font/local";
 
-const regular = localfont(
-    {
-        src: [
-            {
-                path: "../fonts/GeneralSans-Medium.otf"
-            }
-        ],
-        variable: "--font-regularGeneral"
-    }
-)
+const regular = localfont({
+    src: [
+        {
+            path: "../fonts/GeneralSans-Medium.otf"
+        }
+    ],
+    variable: "--font-regularGeneral"
+});
 
 export default function Navbar() {
     const links = [
@@ -27,11 +25,11 @@ export default function Navbar() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     return (
-        <nav className="z-50 bg-[#0d0d0d] border-b w-full flex items-center h-[70px] pl-4 justify-between text-white">
-            <div className="flex items-center lg:hidden">
+        <nav className="z-50 bg-[#0d0d0d] border-b w-full flex items-center h-[70px] px-4 text-white">
+            <div className="flex items-center">
                 <button
                     onClick={() => setIsMenuOpen(!isMenuOpen)}
-                    className="text-white focus:outline-none"
+                    className="text-white focus:outline-none lg:hidden"
                 >
                     <svg
                         className="h-6 w-6"
@@ -57,18 +55,14 @@ export default function Navbar() {
                         )}
                     </svg>
                 </button>
-            </div>
-            <div className="flex items-start">
-                <Link href="/">
-                    <span className={` ${regular.className} text-lg lg:text-2xl tracking-[-0.015em] `} >
-                        {"{ logo }"}
+                <Link href="/" className="flex items-center">
+                    <span className={`ml-2 ${regular.className} text-lg lg:text-2xl tracking-[-0.015em]`}>
+                        {"{ coderships }"}
                     </span>
                 </Link>
-
             </div>
-            <div className="lg:flex items-center hidden">
-
-                <ul className="lg:ml-20 lg:gap-6 flex flex-col lg:flex-row">
+            <div className="hidden lg:flex items-center flex-grow ml-10">
+                <ul className="flex space-x-6">
                     {links.map((link, index) => (
                         <li key={index} className="link px-2 py-1 lg:py-0">
                             <Link href={link.href}>
@@ -78,15 +72,12 @@ export default function Navbar() {
                     ))}
                 </ul>
             </div>
-
-            <div className="flex items-center">
-                <Link href="/sign-in">
-                    <span className="hidden lg:flex link px-2">
-                        Log In
-                    </span>
+            <div className="flex items-center ml-auto">
+                <Link href="/sign-in" className="hidden lg:flex link px-2">
+                    Log In
                 </Link>
                 <Link href="/get-started">
-                    <button className="bg-white h-[70px] text-black px-3 lg:px-6 flex items-center justify-center">
+                    <button className="bg-white py-2 text-black px-3 lg:px-5 flex items-center justify-center rounded-lg ml-2">
                         Get started
                     </button>
                 </Link>
@@ -94,7 +85,7 @@ export default function Navbar() {
 
             {isMenuOpen && (
                 <div className="lg:hidden absolute top-[70px] z-50 left-0 w-full bg-[#0d0d0d]">
-                    <ul className="flex flex-col items-center">
+                    <ul className="flex flex-col items-start pl-4">
                         {links.map((link, index) => (
                             <li key={index} className="link px-2 py-2 w-full text-left border-b border-white">
                                 <Link href={link.href}>
