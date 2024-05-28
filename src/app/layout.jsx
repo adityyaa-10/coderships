@@ -1,8 +1,18 @@
-import { Inter } from "next/font/google";
+import localfont from "next/font/local"
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 
-const inter = Inter({ subsets: ["latin"] });
+const regular = localfont(
+  {
+    src: [
+      {
+        path: "../fonts/GeneralSans-Medium.otf"
+      }
+    ],
+    variable: "--font-regularGeneral"
+  }
+)
+
 
 export const metadata = {
   title: "Create Next App",
@@ -13,7 +23,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
 
-      <body className={`overflow-hidden ${inter.className}`}>
+      <body className={`overflow-hidden ${regular.className}`}>
         <Navbar />
         {children}
       </body>

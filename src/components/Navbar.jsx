@@ -7,7 +7,7 @@ const regular = localfont(
     {
         src: [
             {
-                path: "../../fonts/GeneralSans-Medium.otf"
+                path: "../fonts/GeneralSans-Medium.otf"
             }
         ],
         variable: "--font-regularGeneral"
@@ -93,10 +93,10 @@ export default function Navbar() {
             </div>
 
             {isMenuOpen && (
-                <div className="lg:hidden absolute top-[85px] left-0 w-full bg-[#0d0d0d]">
+                <div className="lg:hidden absolute top-[70px] left-0 w-full bg-[#0d0d0d]">
                     <ul className="flex flex-col items-center">
                         {links.map((link, index) => (
-                            <li key={index} className="link px-2 py-2 w-full text-center border-b border-white">
+                            <li key={index} className="link px-2 py-2 w-full text-left border-b border-white">
                                 <Link href={link.href}>
                                     <div>{link.name}</div>
                                 </Link>
