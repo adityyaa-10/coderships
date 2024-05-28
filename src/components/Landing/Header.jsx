@@ -31,7 +31,7 @@ const medium = localfont(
 
 const Header = () => {
     return (
-        <header className=" bg-[#1B1B1B] overflow-hidden">
+        <header className=" bg-[#1B1B1B] mb-0">
             <div className="hidden lg:block">
                 <div className="flex h-0 left-[130px] relative ">
                     <div className="w-[100px] h-[50px] border border-[#D9D9D950] " />
@@ -63,7 +63,7 @@ const Header = () => {
                     <div className="absolute mt-0-7 sm:mt-0 -top-16 left-0 transform -rotate-6 text-[20px] font-medium text-white bg-[#3065EE] px-4 py-1 rounded-[15px]">
                         Land your dream internship
                     </div>
-                    <h1 className={`text-[3rem] leading-[4.75rem] ${semibold.className} text-white max-w-[850px]`}>
+                    <h1 className={`text-3xl lg:text-[3rem] leading-[3.25rem] lg:leading-[4.75rem] ${semibold.className} text-white max-w-[850px]`}>
                         Reimagining the way students<br className="hidden lg:block" />
                         get dream internship opportunities
                     </h1>

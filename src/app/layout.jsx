@@ -23,9 +23,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
 
-      <body className={`overflow-hidden ${regular.className}`}>
+      <body className={`overflow-x-hidden ${regular.className}`}>
         <Navbar />
-        {children}
+        <div className="">
+          {children}
+        </div>
       </body>
     </html>
   );

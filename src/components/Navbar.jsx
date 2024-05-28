@@ -27,7 +27,7 @@ export default function Navbar() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     return (
-        <nav className="bg-[#0d0d0d] border-b w-full flex items-center h-[70px] pl-4 justify-between text-white">
+        <nav className="z-50 bg-[#0d0d0d] border-b w-full flex items-center h-[70px] pl-4 justify-between text-white">
             <div className="flex items-center lg:hidden">
                 <button
                     onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -93,7 +93,7 @@ export default function Navbar() {
             </div>
 
             {isMenuOpen && (
-                <div className="lg:hidden absolute top-[70px] left-0 w-full bg-[#0d0d0d]">
+                <div className="lg:hidden absolute top-[70px] z-50 left-0 w-full bg-[#0d0d0d]">
                     <ul className="flex flex-col items-center">
                         {links.map((link, index) => (
                             <li key={index} className="link px-2 py-2 w-full text-left border-b border-white">
