@@ -26,7 +26,7 @@ const BoxInfo = () => {
                 <div className="border border-[#D9D9D9] border-t-0 relative px-4 py-6 sm:py-16 lg:py-32 flex-1">
                     <div className="absolute top-0 right-0 w-[130px] h-[50px] border border-[#D9D9D9] border-r-0 border-t-0" />
                     <div className="absolute bottom-0 left-0 w-[130px] h-[50px] border border-[#D9D9D9] border-l-0 border-b-0" />
-                    <div className='py-8'>
+                    <div className='p-8'>
                         <p className='text-[1rem] leading-[2rem] lg:text-[1.5rem] lg:leading-[3rem] text-[#2D2323] font-medium'>Your code tells a story – your story. It's not just
                             about what languages you know or what
                             projects you've worked on. It's about the
@@ -46,7 +46,7 @@ const BoxInfo = () => {
                 <div className="border border-[#D9D9D9] border-t-0 lg:border-l-0 relative px-4 py-6 sm:py-16 lg:py-32 flex-1">
                     <div className="absolute top-0 left-0 w-[130px] h-[50px] border border-[#D9D9D9] border-l-0 border-t-0" />
                     <div className="absolute bottom-0 right-0 w-[130px] h-[50px] border border-[#D9D9D9] border-r-0 border-b-0" />
-                    <div className='py-8'>
+                    <div className='p-8'>
                         <p className='text-[1rem] leading-[2rem] lg:text-[1.5rem] lg:leading-[3rem] text-[#2D2323] font-medium'>
                             In a competitive job market, standing out is key.
                             But how do you differentiate yourself when
