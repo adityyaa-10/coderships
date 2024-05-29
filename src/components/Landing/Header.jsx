@@ -16,7 +16,7 @@ const Header = () => {
     return (
         <header className="bg-[#1B1B1B] mb-0">
             <div className="block pb-4">
-                <div className="relative flex h-0 left-0 sm:left-[50px] md:left-[100px] lg:left-[130px]">
+                <div className="relative flex h-0 left-0">
                     <div className=" border border-[#D9D9D950] w-[60px] h-[30px] md:w-[80px] md:h-[40px] lg:w-[100px] lg:h-[50px]" />
                     <div className=" border border-[#D9D9D950] bg-[#D9D9D940] w-[70px] h-[30px] md:w-[90px] md:h-[40px] lg:w-[120px] lg:h-[50px]" />
                 </div>
