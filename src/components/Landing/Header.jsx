@@ -56,24 +56,23 @@ const Header = () => {
             </div>
             <div className="flex items-center justify-center min-h-[900px] px-4 lg:px-56 2xl:px-80 space-y-6 lg:pt-24 w-full">
                 <div className="relative text-center py-4">
-                    <div className="absolute px-4 py-1 sm:mt-0 -top-4 md:-top-5 left-0 md:left-9 transform -rotate-3 text-base md:text-[20px] font-medium text-white bg-[#3065EE] rounded-[15px]">
+                    <div className="absolute px-4 py-1 sm:mt-0 -top-4 md:-top-5 left-0 xl:left-5 transform -rotate-3 text-base md:text-[20px] font-medium text-white bg-[#3065EE] rounded-[15px]">
                         Land your dream internship
                     </div>
                     <h1
-                        className={`text-[26px] lg:text-[3rem] leading-[3.25rem] lg:leading-[4.75rem] ${semibold.className} text-white max-w-[850px] `}
+                        className={`text-[26px] md:text-[3rem] leading-[3.25rem] md:leading-[4.75rem] ${semibold.className} text-white max-w-[850px] `}
                     >
-                        Reimagining the way students
-                        <br className="hidden lg:block" /> land dream internships in tech
+                        Reimagining the way students land dream internships in tech
                     </h1>
                     <div className="relative w-full flex justify-center mt-4">
                         <Image src={underlineEffect} width={400} height={120} className="absolute bottom-0" />
                     </div>
                     <p
-                        className={`text-[1.5rem] ${medium.variable} leading-[2.75rem] font-medium-sans text-[#7A7A7A] pt-5`}
+                        className={`text-[1.5rem] ${medium.variable} leading-[2.75rem] font-medium-sans text-[#7A7A7A] pt-5 lg:pt-8 max-w-[850px]`}
                     >
                         Ever felt your skills didn’t get the spotlight they deserved? Let
-                        your skills <br /> speak through virtual internship challenges to
-                        showcase your work and <br /> stand out with proof-of-skills
+                        your skills speak through virtual internship challenges to
+                        showcase your work and stand out with proof-of-skills
                     </p>
                     <button className="w-[158px] h-[50px] mt-4 bg-[#6941c6] text-white rounded-[10px]">
                         Get Started

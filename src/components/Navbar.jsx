@@ -77,7 +77,7 @@ export default function Navbar() {
                     Log In
                 </Link>
                 <Link href="/get-started">
-                    <button className="bg-white py-2 text-black px-3 lg:px-5 flex items-center justify-center rounded-lg ml-2">
+                    <button className="bg-white py-2 text-black px-3 lg:px-5 flex items-center justify-center rounded-lg ml-2 btn">
                         Get started
                     </button>
                 </Link>
