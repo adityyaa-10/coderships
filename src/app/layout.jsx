@@ -1,6 +1,7 @@
 import localfont from "next/font/local"
 import "./globals.css";
 import Navbar from "@/components/Navbar";
+import MainFooter from "@/components/Footer";
 
 const regular = localfont(
   {
@@ -28,6 +29,7 @@ export default function RootLayout({ children }) {
         <div className="">
           {children}
         </div>
+        <MainFooter />
       </body>
     </html>
   );

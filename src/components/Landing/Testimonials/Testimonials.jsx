@@ -17,8 +17,8 @@ const regular = localfont(
 
 const Testimonials = () => {
     return (
-        <div className="py-4 md:py-16` lg:py-32 text-black text-center space-y-4 px-4">
-            <h3 className={` ${regular.className} tracking-[-0.015em] text-[2.5rem] inline-block`}>
+        <div className="pb-6 md:pb-24 text-black text-center space-y-4 px-4">
+            <h3 className={` ${regular.className} tracking-[-0.015em] text-[2.5rem] pb-0 md:pb-9 inline-block`}>
                 Here’s what students have to say
             </h3>
             <div>

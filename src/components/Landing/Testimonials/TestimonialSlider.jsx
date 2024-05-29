@@ -52,7 +52,7 @@ const TestimonialSlider = () => {
     };
     return (
         <section className="relative">
-            <div className="px-4 md:px-16 lg:px-24 pb-24 mx-auto relative">
+            <div className="px-4 md:px-16 lg:px-24 mx-auto relative">
                 <div className="md:flex">
 
                     <div className="w-full lg:px-4 py-4 lg:py-0">
