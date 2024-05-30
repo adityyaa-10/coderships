@@ -1,5 +1,3 @@
-
-
 const JoinUs = () => {
     return (
         <div className='bg-[#171717] flex items-center justify-center flex-col px-5 py-9 md:py-16 lg:py-20'>

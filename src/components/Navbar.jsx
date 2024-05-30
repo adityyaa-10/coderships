@@ -16,7 +16,7 @@ export default function Navbar() {
     const links = [
         { name: "About", href: "/about" },
         { name: "For Students", href: "/student" },
-        { name: "Coderships", href: "/codeships" },
+        { name: "Codeships", href: "/codeships" },
         { name: "Features", href: "/features" },
         { name: "Membership", href: "/membership" },
         { name: "FDDIC'24", href: "/fddic" },

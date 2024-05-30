@@ -1,4 +1,3 @@
-
 const Stats = () => {
     return (
         <div className={` bg-[#0C0C0C] flex flex-wrap items-center justify-between w-full px-4 md:px-16 xl:px-24 py-6 lg:py-12`} >

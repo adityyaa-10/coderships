@@ -1,5 +1,3 @@
-
-
 const HowToApply = () => {
     return (
         <div className='text-center max-w-[720px] mx-auto px-5 py-9 md:py-16 lg:py-20'>

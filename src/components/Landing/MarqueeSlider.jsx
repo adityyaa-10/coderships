@@ -18,7 +18,7 @@ const MarqueeSlider = () => {
     return (
         <div className='bg-[#0c0c0c] py-11 lg:py-24 w-full flex flex-col lg:flex-row items-center justify-center'>
             <div className="w-full lg:w-2/5 flex items-center justify-center ">
-                <p className={`${medium.variable} text-[#ffffffe0] text-2xl lg:text-3xl px-4 pb-11 lg:pb-0 lg:leading-[70px] max-w-[450px] text-center lg:text-left ml-0 lg:ml-20`}>
+                <p className={`${medium.variable} text-[#ffffffe0] text-xl md:text-2xl xl:text-3xl px-4 pb-11 lg:pb-0 leading-[30px] md:leading-[50px] xl:leading-[70px] max-w-[450px] text-center lg:text-left ml-6`}>
                     Win referrals to your dream companies by showcasing your skills through Codeships
                 </p>
             </div>
