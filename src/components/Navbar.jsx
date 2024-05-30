@@ -19,7 +19,7 @@ export default function Navbar() {
         { name: "Coderships", href: "/codeships" },
         { name: "Features", href: "/features" },
         { name: "Membership", href: "/membership" },
-        { name: "FDDIC'24", href: "/ffdic" },
+        { name: "FDDIC'24", href: "/fddic" },
     ];
 
     const [isMenuOpen, setIsMenuOpen] = useState(false);
