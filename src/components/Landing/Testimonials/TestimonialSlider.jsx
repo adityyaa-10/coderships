@@ -25,6 +25,7 @@ const TestimonialSlider = () => {
     const settings = {
         centerMode: true,
         dots: false,
+        infinite: false,
         speed: 500,
         slidesToShow: 2,
         slidesToScroll: 1,
