@@ -18,7 +18,7 @@ const Header = () => {
             <div className="block pb-4">
                 <div className="relative flex h-0 left-0">
                     <div className=" border border-[#D9D9D950] w-[60px] h-[30px] md:w-[80px] md:h-[40px] lg:w-[100px] lg:h-[50px]" />
-                    <div className=" border border-[#D9D9D950] bg-[#D9D9D940] w-[70px] h-[30px] md:w-[90px] md:h-[40px] lg:w-[120px] lg:h-[50px]" />
+                    <div className=" border border-[#D9D9D950] bg-[#D9D9D940] w-[60px] h-[30px] md:w-[90px] md:h-[40px] lg:w-[120px] lg:h-[50px]" />
                 </div>
                 <div className="relative h-0 left-[500px] sm:left-[200px] md:left-[350px] lg:left-[500px]">
                     <div className="w-[45px] h-[20px] border border-[#D9D9D950] bg-[#D9D9D940] sm:w-[70px] sm:h-[30px] md:w-[90px] md:h-[40px] lg:w-[120px] lg:h-[50px]" />
@@ -31,7 +31,7 @@ const Header = () => {
                         src="https://ik.imagekit.io/internquest/java-min.svg?updatedAt=1709201833586"
                         width={100}
                         height={100}
-                        className="w-[45px] h-[45px] sm:w-[60px] sm:h-[60px] mt-1 sm:mt-0 md:w-[80px] md:h-[80px] lg:w-[100px] lg:h-[100px] object-contain bg-[#4a4a4a]"
+                        className="w-[60px] h-[60px] mt-1 sm:mt-0 md:w-[80px] md:h-[80px] lg:w-[100px] lg:h-[100px] object-contain bg-[#4a4a4a]"
                         alt=""
                     />
                 </div>

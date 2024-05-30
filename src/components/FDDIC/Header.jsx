@@ -17,7 +17,7 @@ export const Header = () => {
                 </div>
             </div>
             <div className="items-center justify-center pt-40 lg:pt-[220px] flex flex-col space-y-12 w-full">
-                <h1 className="text-3xl leading-[3.5rem] md:text-4xl md:leading-[4rem] lg:text-[3rem] lg:leading-[4.5rem] tracking-wide font-bold  text-center max-w-[677px]">
+                <h1 className="text-[1.5rem] leading-[3rem] md:text-4xl md:leading-[4rem] lg:text-[3rem] lg:leading-[4.5rem] tracking-wide font-bold  text-center max-w-[677px] px-4">
                     Frontend Development <span className='text-[#8980F5]'>Dream Internship</span> Challenge
                 </h1>
                 <div className="text-[1.5rem] text-[#FFFFFFE5] text-center border-2 border-[#D7D7D750] max-w-[650px] px-6 mx-4 py-14">
@@ -26,7 +26,7 @@ export const Header = () => {
                 </div>
 
                 <div className="flex w-full justify-end relative top-[49px]">
-                    <div className="h-[100px] w-[100px] border-[#D7D7D750] border" />
+                    <div className="h-[100px] w-[100px] border-[#D7D7D750] border border-b-0" />
                 </div>
                 <div className="flex w-full h-[50px] columns-3 ">
                     <div className="border-[#D7D7D750] border border-l-0 w-[500px]" />

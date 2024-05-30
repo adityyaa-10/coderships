@@ -5,12 +5,12 @@ import Vision from "@/components/About/Vision"
 
 const AboutPage = () => {
     return (
-        <div>
+        <>
             <Header />
             <GoalCards />
             <TagLine />
             <Vision />
-        </div>
+        </>
     )
 }
 

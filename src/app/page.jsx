@@ -8,17 +8,15 @@ import Testimonials from "@/components/Landing/Testimonials/Testimonials"
 
 const Home = () => {
   return (
-    <>
-      <div className="overflow-hidden">
-        <Header />
-      </div>
+    <div className="overflow-hidden">
+      <Header />
       <MarqueeSlider />
       <Para />
       <BoxInfo />
       <SecondPara />
       <MatrixEffect />
       <Testimonials />
-    </>
+    </div>
   )
 }
 
