@@ -16,7 +16,7 @@ export default function Navbar() {
     const links = [
         { name: "About", href: "/about" },
         { name: "For Students", href: "/student" },
-        { name: "Codeships", href: "/codeships" },
+        { name: "Codeships", href: "/coderships" },
         { name: "Features", href: "/features" },
         { name: "Membership", href: "/membership" },
         { name: "FDDIC'24", href: "/fddic" },
@@ -73,10 +73,10 @@ export default function Navbar() {
                 </ul>
             </div>
             <div className="flex items-center ml-auto">
-                <Link href="/sign-in" className="hidden lg:flex link px-2">
+                <Link href="/login" className="hidden lg:flex link px-2">
                     Log In
                 </Link>
-                <Link href="/get-started">
+                <Link href="/signup">
                     <button className="bg-white py-2 text-black px-3 lg:px-5 flex items-center justify-center rounded-lg ml-2 btn">
                         Get started
                     </button>
