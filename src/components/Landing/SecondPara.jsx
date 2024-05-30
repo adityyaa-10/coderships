@@ -36,10 +36,10 @@ const SecondPara = () => {
                     </span>
                 </span> in tech
             </h3>
-            <p className={` ${medium.className} text-[22px] text-[#544D49] leading-[2.75rem]`}>
-                At BrightIntern, we&apos;re on a mission to empower students to realize their full coding <br />
-                potential and seize the best internship opportunities available. Through our innovative <br />
-                platform, students can harness the power of Codeships to showcase their skills, stand <br />
+            <p className={` ${medium.className} text-[18px] leading-[2.3rem] lg:text-[22px] text-[#544D49] lg:leading-[2.75rem] max-w-[850px] mx-auto`}>
+                At BrightIntern, we&apos;re on a mission to empower students to realize their full coding
+                potential and seize the best internship opportunities available. Through our innovative
+                platform, students can harness the power of Codeships to showcase their skills, stand
                 out to top employers, and secure referrals to their dream companies.
             </p>
         </div>
