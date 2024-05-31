@@ -1,8 +1,17 @@
+
+import Gateway from "@/components/Membership/Gateway"
+import Header from "@/components/Membership/Header"
+import NoteForStudents from "@/components/Membership/NoteForStudents"
+import Prize from "@/components/Membership/Prize"
+
 const MembershipPage = () => {
     return (
-        <div>
-            Membership Page
-        </div>
+        <>
+            <Header />
+            <Gateway />
+            <Prize />
+            <NoteForStudents />
+        </>
     )
 }
 

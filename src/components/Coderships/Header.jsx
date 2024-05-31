@@ -22,7 +22,7 @@ export const Header = () => {
                     Unlock your potential, <span className='text-[#8980F5]'>#ProveYourskills</span> with Coderships
                 </h1>
                 <div className="text-[1.5rem] text-[#FFFFFFE5] text-center border-2 border-[#D7D7D750] max-w-[650px] px-6 lg:px-8 mx-4 py-8 lg:py-12">
-                    Codeships are here to revolutionize the way
+                    Coderships are here to revolutionize the way
                     coding skills are showcased and dream internships
                     are secured
                 </div>

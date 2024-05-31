@@ -60,7 +60,7 @@ const Header = () => {
                         Land your dream internship
                     </div>
                     <h1
-                        className={`text-[2.5rem] md:text-[3rem] leading-[3.25rem] md:leading-[4.75rem] ${semibold.className} text-white max-w-[850px] `}
+                        className={`text-[2.5rem] md:text-[3.1rem] leading-[3.25rem] md:leading-[4.75rem] ${semibold.className} text-white max-w-[800px] `}
                     >
                         Reimagining the way students land <span className="relative">
                             dream internships
@@ -70,7 +70,7 @@ const Header = () => {
                         </span>  in tech
                     </h1>
                     <p
-                        className={`text-[1rem] leading-[2.2rem] md:text-[1.5rem] ${medium.variable} leading-[2.75rem] font-medium-sans text-[#7A7A7A] pt-5 lg:pt-8 max-w-[850px]`}
+                        className={`text-[1rem] leading-[2.2rem] md:text-[1.5rem]  md:leading-[2.75rem] font-medium-sans text-[#7A7A7A] pt-5 lg:pt-8 max-w-[850px]`}
                     >
                         Ever felt your skills didn’t get the spotlight they deserved? Let
                         your skills speak through virtual internship challenges to
