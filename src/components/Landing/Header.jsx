@@ -31,7 +31,7 @@ const Header = () => {
                         src="https://ik.imagekit.io/internquest/java-min.svg?updatedAt=1709201833586"
                         width={100}
                         height={100}
-                        className="w-[60px] h-[60px] mt-1 sm:mt-0 md:w-[80px] md:h-[80px] lg:w-[100px] lg:h-[100px] object-contain bg-[#4a4a4a]"
+                        className="w-[60px] h-[60px] mt-1 sm:mt-0 md:w-[80px] md:h-[80px] lg:w-[100px] lg:h-[100px] object-contain bg-[#4a4a4a] p-4"
                         alt=""
                     />
                 </div>
@@ -64,7 +64,7 @@ const Header = () => {
                     >
                         Reimagining the way students land <span className="relative">
                             dream internships
-                            <span className="absolute left-0 top-9 w-full bottom-0">
+                            <span className="absolute left-0 top-6 lg:top-9 w-full bottom-0">
                                 <Image src={underlineEffect} width={350} height={70} className='mt-5' />
                             </span>
                         </span>  in tech
