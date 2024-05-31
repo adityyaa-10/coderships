@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const Gateway = () => {
     return (
-        <div className={` flex flex-col md:flex-row max-w-[1250px] mx-auto justify-center items-center px-4 py-20 `} >
+        <div className={` flex flex-col md:flex-row max-w-[1250px] mx-auto justify-center items-center px-4 md:px-8 py-20 `} >
             <div className="w-full  md:w-2/3">
                 <h2 className={`text-[2rem] text-[#8980f5] font-semibold  `}>
                     Coderships - A new gateway for top
