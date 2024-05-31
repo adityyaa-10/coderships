@@ -15,7 +15,7 @@ const regular = localfont({
 export default function Navbar() {
     const links = [
         { name: "About", href: "/about" },
-        { name: "For Students", href: "/student" },
+        { name: "For Students", href: "/forstudents" },
         { name: "Coderships", href: "/coderships" },
         { name: "Features", href: "/features" },
         { name: "Membership", href: "/membership" },
