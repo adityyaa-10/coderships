@@ -13,11 +13,11 @@ export const Header = () => {
                 </div>
             </div>
             <div className="items-center justify-center pt-40 lg:pt-[220px] flex flex-col space-y-12 w-full">
-                <h1 className="text-[1.5rem] leading-[3rem] md:text-4xl md:leading-[4rem] lg:text-[3rem] lg:leading-[4.5rem] tracking-wide font-bold  text-center max-w-[677px] px-4">
+                <h1 className="text-[30px] leading-[3.2rem] md:text-4xl md:leading-[4rem] lg:text-[3rem] lg:leading-[4.5rem] tracking-wide font-bold max-w-[720px] px-4 text-left lg:text-center">
                     Frontend Development <span className='text-[#8980F5]'>Dream Internship</span> Challenge
                 </h1>
-                <div className="text-[1.5rem] text-[#FFFFFFE5] text-center border-2 border-[#D7D7D750] max-w-[650px] px-6 mx-4 py-14">
-                    where your journey to landing your dream frontend <br />
+                <div className="text-[1.4rem] lg:text-[1.5rem] text-[#FFFFFFE5] text-center border-2 border-[#D7D7D750] max-w-[600px] px-6 mx-4 py-8 lg:py12 leading-[2.75rem]">
+                    where your journey to landing your dream frontend
                     development internship begins!
                 </div>
 

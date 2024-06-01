@@ -1,11 +1,11 @@
 const Prize = () => {
     return (
         <div className="bg-[#171717] flex flex-col items-center justify-center px-5 py-9 md:py-16 lg:py-20">
-            <h4 className="font-semibold text-center text-[1.75rem] text-white">
+            <h4 className="font-semibold text-center text-[1.75rem] text-white tracking-[.015em]">
                 What awaits for you...
             </h4>
 
-            <p className=' lg:text-[1.5rem] text-[#FFFFFFE5] pt-10 text-center'>
+            <p className=' text-[18px] leading-[2.25rem] lg:text-[1.5rem] text-[#FFFFFFE5] pt-5 lg:pt-10 text-center'>
                 A chance to secure a dream internship offer with a starting stipend of
             </p>
 
