@@ -31,7 +31,7 @@ const StudentsHeader = () => {
                     Your passport to land dream internships in tech
                 </h2>
             </div>
-
+            
         </div>
     )
 }

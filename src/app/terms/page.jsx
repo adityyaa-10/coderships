@@ -1,9 +1,12 @@
+import Heading from "@/components/Terms/Heading"
+import LastModified from "@/components/Terms/LastModified"
 
 const TermsAndCondition = () => {
     return (
-        <div>
-            terms and condition
-        </div>
+        <>
+            <Heading />
+            <LastModified />
+        </>
     )
 }
 
