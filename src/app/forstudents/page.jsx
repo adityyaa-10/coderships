@@ -1,13 +1,13 @@
 import Accordion from "@/components/ForStudents/Accordion/Accordion"
 import ChangingApproach from "@/components/ForStudents/ChangingApproach"
-import Header from "@/components/ForStudents/Header"
 import SailWithCoderships from "@/components/ForStudents/SailWithCoderships"
+import StudentsHeader from "@/components/ForStudents/StudentsHeader"
 import Tagline from "@/components/ForStudents/Tagline"
 
 const StudentsPage = () => {
     return (
         <>
-            <Header />
+            <StudentsHeader />
             <ChangingApproach />
             <Tagline />
             <Accordion />

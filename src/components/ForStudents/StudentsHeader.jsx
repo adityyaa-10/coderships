@@ -2,7 +2,7 @@
 import React from "react";
 import { Typewriter } from 'react-simple-typewriter'
 
-const Header = () => {
+const StudentsHeader = () => {
     const TypewriterMemoized = React.memo(Typewriter);
     return (
         <div className="bg-[#1B1B1B]" >
@@ -36,4 +36,4 @@ const Header = () => {
     )
 }
 
-export default Header
+export default StudentsHeader
