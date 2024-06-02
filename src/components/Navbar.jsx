@@ -25,7 +25,7 @@ export default function Navbar() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     return (
-        <nav className="z-50 bg-[#0d0d0d] border-b w-full flex items-center h-[70px] px-4 text-white">
+        <nav className="bg-[#0d0d0d] border-b w-full flex items-center h-[70px] px-4 text-white">
             <div className="flex items-center">
                 <button
                     onClick={() => setIsMenuOpen(!isMenuOpen)}
