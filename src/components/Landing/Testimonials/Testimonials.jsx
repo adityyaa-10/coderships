@@ -1,4 +1,3 @@
-"use client"
 import localfont from "next/font/local"
 import TestimonialSlider from './TestimonialSlider';
 

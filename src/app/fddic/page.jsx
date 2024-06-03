@@ -11,13 +11,15 @@ const FDDICPage = () => {
     return (
         <>
             <Header />
-            <Stats />
-            <EventDetails />
-            <TechMarquee />
-            <HowItWorks />
-            <Prize />
-            <HowToApply />
-            <JoinUs />
+            <div className="bg-white">
+                <Stats />
+                <EventDetails />
+                <TechMarquee />
+                <HowItWorks />
+                <Prize />
+                <HowToApply />
+                <JoinUs />
+            </div>
         </>
     )
 }

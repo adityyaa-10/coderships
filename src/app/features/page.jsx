@@ -7,9 +7,11 @@ const FeaturesPage = () => {
     return (
         <>
             <Header />
-            <FirstCard />
-            <SecondCard />
-            <ThirdCard />
+            <div className="bg-white">
+                <FirstCard />
+                <SecondCard />
+                <ThirdCard />
+            </div>
         </>
     )
 }

@@ -8,10 +8,12 @@ const StudentsPage = () => {
     return (
         <>
             <StudentsHeader />
-            <ChangingApproach />
-            <Tagline />
-            <Accordion />
-            <SailWithCoderships />
+            <div className="bg-white">
+                <ChangingApproach />
+                <Tagline />
+                <Accordion />
+                <SailWithCoderships />
+            </div>
         </>
     )
 }

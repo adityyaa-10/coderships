@@ -10,12 +10,14 @@ const Home = () => {
   return (
     <div className="overflow-hidden">
       <Header />
-      <MarqueeSlider />
-      <Para />
-      <BoxInfo />
-      <SecondPara />
-      <MatrixEffect />
-      <Testimonials />
+      <div className="bg-white">
+        <MarqueeSlider />
+        <Para />
+        <BoxInfo />
+        <SecondPara />
+        <MatrixEffect />
+        <Testimonials />
+      </div>
     </div>
   )
 }

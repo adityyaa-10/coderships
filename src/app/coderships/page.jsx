@@ -7,9 +7,11 @@ const CodershipsPage = () => {
     return (
         <>
             <Header />
-            <AboutCoderships />
-            <TechMatrix />
-            <WhyCoderships />
+            <div className="bg-white">
+                <AboutCoderships />
+                <TechMatrix />
+                <WhyCoderships />
+            </div>
         </>
     )
 }

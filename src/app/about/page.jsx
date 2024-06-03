@@ -7,9 +7,11 @@ const AboutPage = () => {
     return (
         <>
             <Header />
-            <GoalCards />
-            <TagLine />
-            <Vision />
+            <div className="bg-white">
+                <GoalCards />
+                <TagLine />
+                <Vision />
+            </div>
         </>
     )
 }

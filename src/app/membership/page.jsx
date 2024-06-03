@@ -8,9 +8,11 @@ const MembershipPage = () => {
     return (
         <>
             <Header />
-            <Gateway />
-            <Prize />
-            <NoteForStudents />
+            <div className="bg-white">
+                <Gateway />
+                <Prize />
+                <NoteForStudents />
+            </div>
         </>
     )
 }

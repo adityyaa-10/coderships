@@ -1,4 +1,3 @@
-"use client";
 import Image from "next/image";
 import localfont from "next/font/local";
 import underlineEffect from "@/assets/Header/vector.svg";
