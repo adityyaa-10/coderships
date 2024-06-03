@@ -27,7 +27,7 @@ const MainFooter = () => {
 
                 <ul className="flex flex-wrap justify-center md:justify-start mb-4 md:mb-0">
                     {links.map((link, index) => (
-                        <li key={index} className="px-2">
+                        <li key={index} className="px-2 link">
                             <Link href={link.href}>
                                 {link.name}
                             </Link>

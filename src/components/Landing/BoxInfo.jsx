@@ -7,7 +7,7 @@ const BoxInfo = () => {
             <div className="border border-[#D9D9D9] relative">
                 <div className="absolute top-12 left-0 right-0 h-[1px] bg-[#D9D9D9]" />
                 <div className="absolute top-0 bottom-0 right-12 w-[1px] bg-[#D9D9D9] hidden lg:block" />
-                <div className="pt-16 pb-8 px-4 lg:p-32">
+                <div className="pt-16 pb-8 px-4 md:px-12 lg:p-32">
                     <p className=' text-[16.5px] leading-[2rem] lg:text-[20px] lg:leading-[2.5rem] text-[#2D2323] mt-2 mb-4'> Let's face it – it's tough to convey the depth of your coding skills on a resume. Traditional
                         resumes often provide only a surface-level view of your coding skills. Sure, you can list your
                         tech stack and mention a couple of capstone projects, but does that really capture the
@@ -24,7 +24,7 @@ const BoxInfo = () => {
             <div className="flex flex-col lg:flex-row">
 
                 {/* Left Block */}
-                <div className="border border-[#D9D9D9] border-t-0 relative px-4 py-6 lg:py-32 flex-1">
+                <div className="border border-[#D9D9D9] border-t-0 relative px-4 md:px-12  py-6 lg:py-32 flex-1">
                     <div className="absolute hidden lg:block top-0 right-0 w-[130px] h-[50px] border border-[#D9D9D9] border-r-0 border-t-0" />
                     <div className="absolute hidden lg:block bottom-0 left-0 w-[130px] h-[50px] border border-[#D9D9D9] border-l-0 border-b-0" />
                     <div className='py-6 lg:p-8'>
@@ -46,7 +46,7 @@ const BoxInfo = () => {
                 </div>
 
                 {/* Right Block */}
-                <div className="border border-[#D9D9D9] border-t-0 lg:border-l-0 relative px-4 py-6 lg:py-32 flex-1">
+                <div className="border border-[#D9D9D9] border-t-0 lg:border-l-0 relative px-4 md:px-12 py-6 lg:py-32 flex-1">
                     <div className="absolute hidden lg:block top-0 left-0 w-[130px] h-[50px] border border-[#D9D9D9] border-l-0 border-t-0" />
                     <div className="absolute hidden lg:block bottom-0 right-0 w-[130px] h-[50px] border border-[#D9D9D9] border-r-0 border-b-0" />
                     <div className='pr-5 lg:p-8'>

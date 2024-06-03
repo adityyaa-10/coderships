@@ -2,7 +2,7 @@
 
 const Vision = () => {
     return (
-        <div className="max-w-[1200px] px-3 mx-auto py-8 lg:py-14 flex flex-col sm:flex-row">
+        <div className="max-w-[1200px] px-3 md:px-12 mx-auto py-8 lg:py-14 flex flex-col sm:flex-row">
             <div className="w-full sm:w-[26%] flex flex-col justify-center">
                 <h2 className="text-[24px] lg:text-[48px] font-bold text-[#8980F5] pb-[11px] text-center sm:text-left">Our Vision</h2>
                 <p className="text-[1.2rem] leading-[2.4rem] lg:text-[1.35rem] lg:leading-[2.75rem] text-[#544D49]">

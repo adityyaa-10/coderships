@@ -2,6 +2,7 @@
 import Link from "next/link";
 import { useState } from "react";
 import localfont from "next/font/local";
+import { usePathname } from 'next/navigation'
 
 const regular = localfont({
     src: [
@@ -23,7 +24,7 @@ export default function Navbar() {
     ];
 
     const [isMenuOpen, setIsMenuOpen] = useState(false);
-
+    const pathname = usePathname()
     return (
         <nav className="bg-[#0d0d0d] border-b w-full flex items-center h-[70px] px-4 text-white">
             <div className="flex items-center">
@@ -55,16 +56,16 @@ export default function Navbar() {
                         )}
                     </svg>
                 </button>
-                <Link href="/" className="flex items-center">
+                <Link href="/" className="flex items-center" onClick={() => setIsMenuOpen(false)}>
                     <span className={`ml-2 ${regular.className} text-lg lg:text-2xl tracking-[-0.015em]`}>
                         {"{ coderships }"}
                     </span>
                 </Link>
             </div>
             <div className="hidden lg:flex items-center flex-grow ml-10">
-                <ul className="flex space-x-6">
+                <ul className="flex space-x-3">
                     {links.map((link, index) => (
-                        <li key={index} className="link px-2 py-1 lg:py-0">
+                        <li key={index} className={`link px-2 py-1 lg:py-0 ${pathname === link.href ? 'bg-[#48008c]' : ''}`}>
                             <Link href={link.href}>
                                 <div>{link.name}</div>
                             </Link>
@@ -84,11 +85,30 @@ export default function Navbar() {
             </div>
 
             {isMenuOpen && (
-                <div className="lg:hidden absolute top-[70px] z-50 left-0 w-full bg-[#0d0d0d]">
-                    <ul className="flex flex-col items-start pl-4">
+                <div className="lg:hidden fixed top-0 left-0 w-full h-full bg-[#0d0d0d] z-50 flex flex-col items-center justify-center">
+                    <button
+                        onClick={() => setIsMenuOpen(false)}
+                        className="absolute top-4 right-4 text-white focus:outline-none"
+                    >
+                        <svg
+                            className="h-6 w-6"
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor"
+                        >
+                            <path
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                                strokeWidth={2}
+                                d="M6 18L18 6M6 6l12 12"
+                            />
+                        </svg>
+                    </button>
+                    <ul className="flex flex-col items-center space-y-6">
                         {links.map((link, index) => (
-                            <li key={index} className="link px-2 py-2 w-full text-left border-b border-white">
-                                <Link href={link.href}>
+                            <li key={index} className="link text-2xl">
+                                <Link href={link.href} onClick={() => setIsMenuOpen(false)}>
                                     <div>{link.name}</div>
                                 </Link>
                             </li>

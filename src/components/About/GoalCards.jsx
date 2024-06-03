@@ -2,7 +2,7 @@
 
 const GoalCards = () => {
     return (
-        <div className="flex flex-col lg:flex-row max-w-[1200px] px-[6px] mx-auto py-6 lg:py-14">
+        <div className="flex flex-col lg:flex-row max-w-[1200px] px-[6px] md:px-[14px] mx-auto py-6 lg:py-14">
             <div className="pl-3 pr-6 lg:px-10 pb-6 lg:pb-10 flex flex-col border ">
                 <div className="flex-grow">
                     <h2 className="text-[28px] leading-[3rem] lg:text-[32px] lg:leading-[3.25rem] font-bold text-[#8980F5] max-w-[640px] py-4 lg:pt-7 lg:pb-0 tracking-[0.015em]">Empowering Students to Code, Compete, and Conquer</h2>
