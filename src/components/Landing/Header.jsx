@@ -6,10 +6,6 @@ const semibold = localfont({
     src: [{ path: "../../fonts/GeneralSans-Semibold.otf" }],
     variable: "--font-semiboldSans",
 });
-const medium = localfont({
-    src: [{ path: "../../fonts/GeneralSans-Medium.otf" }],
-    variable: "--font-MediumSans",
-});
 
 const Header = () => {
     return (

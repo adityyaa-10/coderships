@@ -8,7 +8,7 @@ const BoxInfo = () => {
                 <div className="absolute top-12 left-0 right-0 h-[1px] bg-[#D9D9D9]" />
                 <div className="absolute top-0 bottom-0 right-12 w-[1px] bg-[#D9D9D9] hidden lg:block" />
                 <div className="pt-16 pb-8 px-4 md:px-12 lg:p-32">
-                    <p className=' text-[16.5px] leading-[2rem] lg:text-[20px] lg:leading-[2.5rem] text-[#2D2323] mt-2 mb-4'> Let's face it – it's tough to convey the depth of your coding skills on a resume. Traditional
+                    <p className='text-[16.5px] leading-[2rem] lg:text-[20px] lg:leading-[2.5rem] text-[#2D2323] mt-2 mb-4'> Let's face it – it's tough to convey the depth of your coding skills on a resume. Traditional
                         resumes often provide only a surface-level view of your coding skills. Sure, you can list your
                         tech stack and mention a couple of capstone projects, but does that really capture the
                         essence of what you bring to the table? We don't think so.
