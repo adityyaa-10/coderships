@@ -8,15 +8,6 @@ import code from '@/assets/ForStudents/code.svg'
 const StudentsHeader = () => {
     const TypewriterMemoized = React.memo(Typewriter);
     return (
-        // <div className="bg-[#1B1B1B]" >
-        //     <div className=' items-center justify-center w-full flex flex-col py-9 md:py-16 lg:py-24 xl:py-40 max-w-[683px] mx-auto'>
-
-        //     </div>
-
-        
-
-
-        // </div>
         <header className="bg-[#1B1B1B] text-white pb-24 relative">
             <div>
                 <div className="absolute border border-t-0 w-[70px] h-[35px] lg:w-[100px] lg:h-[50px]  border-[#D7D7D750] left-[100px] lg:left-[200px]" />
