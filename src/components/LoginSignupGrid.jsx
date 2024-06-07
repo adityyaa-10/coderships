@@ -1,105 +1,40 @@
 const LoginSignupGrid = () => {
     return (
-        <div className="hidden xl:block absolute z-[0] top-0 right-0 pointer-events-none">
-            <div className="w-full h-screen mx-auto">
-                <div className="xl:grid xl:grid-cols-16 xl:grid-rows-rebrand-10">
-                    <div className="relative flex row-span-1 col-start-6 col-span-11">
-                        <div className="relative w-[85px] h-[85px] border-b border-l border-solid border-[#e2e2e2]"></div>
-                        <div className="relative w-[85px] h-[85px] border-b border-l border-solid border-[#e2e2e2]"></div>
-                        <div className="relative w-[85px] h-[85px] border-b border-l border-solid border-[#e2e2e2]"></div>
-                        <div className="relative w-[85px] h-[85px] border-b border-l border-solid border-[#e2e2e2]"></div>
-                        <div className="relative w-[85px] h-[85px] border-b border-l border-solid border-[#e2e2e2]"></div>
-                        <div className="relative w-[85px] h-[85px] border-b border-l border-solid border-[#e2e2e2]"></div>
-                        <div className="relative w-[85px] h-[85px] border-b border-l border-solid border-[#e2e2e2]"></div>
-                        <div className="relative w-[85px] h-[85px] border-b border-l border-solid border-[#e2e2e2]"></div>
-                        <div className="relative w-[85px] h-[85px] border-b border-l border-solid border-[#e2e2e2]"></div>
-                        <div className="relative w-[85px] h-[85px] border-b border-l border-solid border-[#e2e2e2]"></div>
-                    </div>
+        <svg viewBox="0 0 700 700" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="700" height="900" fill="white" />
+            <rect x="0.5" y="0.5" width="99" height="99" fill="white" stroke="#D7D7D7" />
+            <rect x="100.5" y="0.5" width="99" height="99" fill="white" stroke="#D7D7D7" />
+            <rect x="200.5" y="0.5" width="99" height="99" fill="white" stroke="#D7D7D7" />
+            <rect x="300.5" y="0.5" width="99" height="99" fill="white" stroke="#D7D7D7" />
+            <rect x="400.5" y="0.5" width="99" height="99" fill="white" stroke="#D7D7D7" />
+            <rect x="500.5" y="0.5" width="99" height="99" fill="white" stroke="#D7D7D7" />
+            <rect x="600.5" y="0.5" width="99" height="99" fill="white" stroke="#D7D7D7" />
+            <rect x="100.5" y="100.5" width="199" height="99" fill="white" stroke="#D7D7D7" />
+            <rect x="300.5" y="100.5" width="99" height="99" fill="white" stroke="#D7D7D7" />
+            <rect x="400.5" y="100.5" width="99" height="199" fill="white" stroke="#D7D7D7" />
+            <rect x="500.5" y="100.5" width="99" height="99" fill="white" stroke="#D7D7D7" />
+            <rect x="600.5" y="100.5" width="99" height="99" fill="white" stroke="#D7D7D7" />
+            <rect x="500.5" y="200.5" width="199" height="199" fill="white" stroke="#D7D7D7" />
+            <rect x="300.5" y="200.5" width="99" height="99" fill="white" stroke="#D7D7D7" />
+            <rect x="200.5" y="200.5" width="99" height="99" fill="white" stroke="#D7D7D7" />
+            <rect x="200.5" y="300.5" width="299" height="99" fill="white" stroke="#D7D7D7" />
+            <rect x="0.5" y="100.5" width="99" height="99" fill="white" stroke="#D7D7D7" />
+            <rect x="300.5" y="400.5" width="399" height="199" fill="white" stroke="#D7D7D7" />
+            <rect x="600.5" y="600.5" width="99" height="99" fill="white" stroke="#D7D7D7" />
+            <rect x="400.5" y="600.5" width="199" height="99" fill="white" stroke="#D7D7D7" />
+            <rect x="100.5" y="200.5" width="99" height="99" fill="white" stroke="#D7D7D7" />
+            <rect x="200.5" y="400.5" width="99" height="99" fill="white" stroke="#D7D7D7" />
+            <rect x="600.5" y="700.5" width="99" height="99" fill="white" stroke="#D7D7D7" />
+            <rect x="500.5" y="700.5" width="99" height="99" fill="white" stroke="#D7D7D7" />
+            <rect x="600.5" y="800.5" width="99" height="99" fill="white" stroke="#D7D7D7" />
+            <path d="M149.128 78.96C133.768 78.96 123.112 67.92 123.112 52.176C123.112 36.816 134.248 25.392 149.128 25.392C163.336 25.392 173.896 34.992 175.336 49.392H157.864C157.576 43.728 154.216 40.176 149.224 40.176C143.464 40.176 140.104 44.592 140.104 52.176C140.104 59.952 143.368 64.272 149.224 64.272C154.312 64.272 157.48 60.816 157.864 54.96H175.336C173.896 69.744 163.816 78.96 149.128 78.96Z" fill="black" fill-opacity="0.2" />
+            <path d="M551.088 180.96C535.824 180.96 524.112 168.96 524.112 154.176C524.112 139.392 535.824 127.392 551.088 127.392C566.352 127.392 578.064 139.392 578.064 154.176C578.064 168.96 566.352 180.96 551.088 180.96ZM551.088 166.272C556.176 166.272 560.976 162.24 560.976 154.176C560.976 146.112 556.176 142.176 551.088 142.176C546 142.176 541.2 146.112 541.2 154.176C541.2 162.24 546 166.272 551.088 166.272Z" fill="black" fill-opacity="0.2" />
+            <path d="M321.112 261.176C321.112 246.2 330.232 234.392 344.152 234.392C349.528 234.392 354.136 236.312 358.168 240.152V218.072H374.584V287H359.512V281.144C355.288 285.56 350.2 287.96 344.152 287.96C330.232 287.96 321.112 275.96 321.112 261.176ZM338.2 261.176C338.2 269.24 343.096 273.176 348.088 273.176C353.176 273.176 357.976 269.24 357.976 261.08C357.976 252.824 353.08 249.176 348.088 249.176C343.096 249.176 338.2 252.92 338.2 261.176Z" fill="black" fill-opacity="0.2" />
+            <path d="M249.704 478.864C233.768 478.864 223.112 468.112 223.112 452.08C223.112 436.624 234.248 425.392 249.608 425.392C266.696 425.392 278.12 439.312 275.144 456.304H240.104C240.968 462.832 244.04 466.096 249.32 466.096C253.928 466.096 257 464.176 258.44 460.432H274.856C271.688 472.24 262.568 478.864 249.704 478.864ZM249.224 437.488C244.328 437.488 241.448 440.272 240.296 446.032H257.576C257.384 440.848 254.12 437.488 249.224 437.488Z" fill="black" fill-opacity="0.2" />
+            <path d="M259.016 362H255.496V339.024H264.072C269.352 339.024 272.52 341.616 272.52 346.192C272.52 349.488 270.44 352.016 266.952 352.848L273.192 362H268.968L263.24 353.36H259.016V362ZM259.016 341.968V350.416H263.848C267.112 350.416 268.968 348.976 268.968 346.192C268.968 343.44 267.112 341.968 263.848 341.968H259.016ZM282.497 362.32C277.601 362.32 274.305 358.768 274.305 353.424C274.305 348.4 277.729 344.72 282.401 344.72C287.457 344.72 290.817 348.816 290.241 354.32H277.601C277.857 357.776 279.585 359.792 282.433 359.792C284.833 359.792 286.497 358.48 287.041 356.272H290.241C289.409 360.048 286.497 362.32 282.497 362.32ZM282.337 347.152C279.745 347.152 277.985 349.008 277.633 352.176H286.817C286.657 349.04 284.961 347.152 282.337 347.152ZM303.95 362V359.376C302.894 361.264 301.006 362.32 298.51 362.32C294.99 362.32 292.686 360.304 292.686 357.2C292.686 353.872 295.342 352.144 300.398 352.144C301.39 352.144 302.19 352.176 303.566 352.336V351.088C303.566 348.656 302.254 347.28 300.014 347.28C297.646 347.28 296.206 348.688 296.11 351.056H293.166C293.326 347.248 296.046 344.72 300.014 344.72C304.206 344.72 306.638 347.088 306.638 351.12V362H303.95ZM295.758 357.104C295.758 358.864 297.07 360.016 299.15 360.016C301.87 360.016 303.566 358.32 303.566 355.728V354.352C302.318 354.192 301.422 354.16 300.59 354.16C297.358 354.16 295.758 355.12 295.758 357.104ZM314.223 362H310.959V339.024H314.223V362ZM341.588 353.52C341.588 358.64 338.644 362.32 334.1 362.32C331.796 362.32 329.844 361.168 328.628 359.12V368.176H325.396V345.04H328.404V348.144C329.62 345.968 331.7 344.72 334.1 344.72C338.612 344.72 341.588 348.4 341.588 353.52ZM338.228 353.52C338.228 349.712 336.212 347.568 333.428 347.568C330.74 347.568 328.628 349.712 328.628 353.52C328.628 357.264 330.708 359.44 333.428 359.44C336.212 359.44 338.228 357.328 338.228 353.52ZM348.097 353.328V362H344.865V345.04H347.873V348.624C349.057 346.288 351.617 344.816 354.401 344.816V348.176C350.753 347.984 348.097 349.584 348.097 353.328ZM364 362.32C359.2 362.32 355.68 358.544 355.68 353.52C355.68 348.496 359.2 344.72 364 344.72C368.8 344.72 372.32 348.496 372.32 353.52C372.32 358.544 368.8 362.32 364 362.32ZM364 359.472C366.784 359.472 368.992 357.232 368.992 353.52C368.992 349.808 366.784 347.6 364 347.6C361.216 347.6 359.04 349.808 359.04 353.52C359.04 357.232 361.216 359.472 364 359.472ZM379.551 341.104C379.551 342.32 378.591 343.248 377.215 343.248C375.839 343.248 374.847 342.32 374.847 341.104C374.847 339.856 375.839 338.96 377.215 338.96C378.591 338.96 379.551 339.856 379.551 341.104ZM378.815 345.04V362.832C378.815 366.704 376.703 368.496 373.599 368.496C372.895 368.496 372.095 368.464 371.359 368.176V365.136C371.903 365.392 372.511 365.488 373.215 365.488C374.655 365.488 375.583 364.72 375.583 362.768V345.04H378.815ZM390.279 362.32C385.383 362.32 382.087 358.768 382.087 353.424C382.087 348.4 385.511 344.72 390.183 344.72C395.239 344.72 398.599 348.816 398.023 354.32H385.383C385.639 357.776 387.367 359.792 390.215 359.792C392.615 359.792 394.279 358.48 394.823 356.272H398.023C397.191 360.048 394.279 362.32 390.279 362.32ZM390.119 347.152C387.527 347.152 385.766 349.008 385.415 352.176H394.599C394.439 349.04 392.743 347.152 390.119 347.152ZM407.834 362.352C403.194 362.352 399.93 358.704 399.93 353.52C399.93 348.4 403.258 344.72 407.834 344.72C412.026 344.72 415.066 347.504 415.674 351.92H412.282C411.93 349.2 410.234 347.568 407.866 347.568C405.082 347.568 403.258 349.936 403.258 353.52C403.258 357.136 405.082 359.472 407.866 359.472C410.266 359.472 411.93 357.872 412.314 355.12H415.674C415.098 359.6 412.09 362.352 407.834 362.352ZM428.496 358.864V361.712C427.504 362.16 426.64 362.32 425.616 362.32C422.48 362.32 420.304 360.624 420.304 356.88V347.792H416.559V345.04H420.304V340.016H423.536V345.04H428.656V347.792H423.536V356.144C423.536 358.48 424.656 359.312 426.384 359.312C427.152 359.312 427.824 359.184 428.496 358.864ZM445.118 356.944C445.118 360.272 442.526 362.32 438.014 362.32C433.534 362.32 430.878 360.112 430.558 356.464H433.661C433.79 358.576 435.486 359.888 438.078 359.888C440.35 359.888 441.854 359.088 441.854 357.488C441.854 356.08 440.99 355.472 438.878 355.056L436.126 354.544C432.99 353.936 431.23 352.336 431.23 349.776C431.23 346.8 433.822 344.72 437.758 344.72C441.822 344.72 444.574 346.896 444.862 350.384H441.758C441.566 348.336 440.062 347.152 437.79 347.152C435.742 347.152 434.366 348.016 434.366 349.488C434.366 350.864 435.23 351.504 437.278 351.888L440.158 352.432C443.518 353.04 445.118 354.512 445.118 356.944Z" fill="#544D49" fill-opacity="0.9" />
+            <path d="M568.016 283H564.496V260.024H573.072C578.352 260.024 581.52 262.616 581.52 267.192C581.52 270.488 579.44 273.016 575.952 273.848L582.192 283H577.968L572.24 274.36H568.016V283ZM568.016 262.968V271.416H572.848C576.112 271.416 577.968 269.976 577.968 267.192C577.968 264.44 576.112 262.968 572.848 262.968H568.016ZM591.497 283.32C586.601 283.32 583.305 279.768 583.305 274.424C583.305 269.4 586.729 265.72 591.401 265.72C596.457 265.72 599.817 269.816 599.241 275.32H586.601C586.857 278.776 588.585 280.792 591.433 280.792C593.833 280.792 595.497 279.48 596.041 277.272H599.241C598.409 281.048 595.497 283.32 591.497 283.32ZM591.337 268.152C588.745 268.152 586.985 270.008 586.633 273.176H595.817C595.657 270.04 593.961 268.152 591.337 268.152ZM612.95 283V280.376C611.894 282.264 610.006 283.32 607.51 283.32C603.99 283.32 601.686 281.304 601.686 278.2C601.686 274.872 604.342 273.144 609.398 273.144C610.39 273.144 611.19 273.176 612.566 273.336V272.088C612.566 269.656 611.254 268.28 609.014 268.28C606.646 268.28 605.206 269.688 605.11 272.056H602.166C602.326 268.248 605.046 265.72 609.014 265.72C613.206 265.72 615.638 268.088 615.638 272.12V283H612.95ZM604.758 278.104C604.758 279.864 606.07 281.016 608.15 281.016C610.87 281.016 612.566 279.32 612.566 276.728V275.352C611.318 275.192 610.422 275.16 609.59 275.16C606.358 275.16 604.758 276.12 604.758 278.104ZM623.223 283H619.959V260.024H623.223V283ZM577.68 335.944C577.68 339.272 575.088 341.32 570.576 341.32C566.096 341.32 563.44 339.112 563.12 335.464H566.224C566.352 337.576 568.048 338.888 570.64 338.888C572.912 338.888 574.416 338.088 574.416 336.488C574.416 335.08 573.552 334.472 571.44 334.056L568.688 333.544C565.552 332.936 563.792 331.336 563.792 328.776C563.792 325.8 566.384 323.72 570.32 323.72C574.384 323.72 577.136 325.896 577.424 329.384H574.32C574.128 327.336 572.624 326.152 570.352 326.152C568.304 326.152 566.928 327.016 566.928 328.488C566.928 329.864 567.792 330.504 569.84 330.888L572.72 331.432C576.08 332.04 577.68 333.512 577.68 335.944ZM584.441 341H581.209V318.024H584.441V331.624L591.705 324.04H595.513L587.673 332.264L596.249 341H592.089L584.441 332.968V341ZM602.457 320.104C602.457 321.32 601.497 322.248 600.121 322.248C598.745 322.248 597.753 321.32 597.753 320.104C597.753 318.856 598.745 317.96 600.121 317.96C601.497 317.96 602.457 318.856 602.457 320.104ZM601.753 341H598.521V324.04H601.753V341ZM609.504 341H606.24V318.024H609.504V341ZM617.254 341H613.99V318.024H617.254V341ZM635.18 335.944C635.18 339.272 632.588 341.32 628.076 341.32C623.596 341.32 620.94 339.112 620.62 335.464H623.724C623.852 337.576 625.548 338.888 628.14 338.888C630.412 338.888 631.916 338.088 631.916 336.488C631.916 335.08 631.052 334.472 628.94 334.056L626.188 333.544C623.052 332.936 621.292 331.336 621.292 328.776C621.292 325.8 623.884 323.72 627.82 323.72C631.884 323.72 634.636 325.896 634.924 329.384H631.82C631.628 327.336 630.124 326.152 627.852 326.152C625.804 326.152 624.428 327.016 624.428 328.488C624.428 329.864 625.292 330.504 627.34 330.888L630.22 331.432C633.58 332.04 635.18 333.512 635.18 335.944Z" fill="#544D49" fill-opacity="0.9" />
+        </svg>
 
-                    <div className="relative flex row-span-1 col-start-7 col-span-10">
-                        <div className="relative w-[85px] h-[85px] border-b border-l border-solid border-[#e2e2e2]"></div>
-                        <div className="relative w-[85px] h-[85px] border-b border-l border-solid border-[#e2e2e2]"></div>
-                        <div className="relative w-[85px] h-[85px] border-b border-l border-solid border-[#e2e2e2]"></div>
-                        <div className="relative w-[85px] h-[85px] border-b border-l border-solid border-[#e2e2e2]"></div>
-                        <div className="relative w-[85px] h-[85px] border-b border-l border-solid border-[#e2e2e2]"></div>
-                        <div className="relative w-[85px] h-[85px] border-b border-l border-solid border-[#e2e2e2]"></div>
-                        <div className="relative w-[85px] h-[85px] border-b border-l border-solid border-[#e2e2e2]"></div>
-                        <div className="relative w-[85px] h-[85px] border-b border-l border-solid border-[#e2e2e2]"></div>
-                        <div className="relative w-[85px] h-[85px] border-b border-l border-solid border-[#e2e2e2]"></div>
-                        <div className="relative w-[85px] h-[85px] border-b border-l border-solid border-[#e2e2e2]"></div>
-                    </div>
-
-                    <div className="relative flex row-span-1 col-start-8 col-span-9">
-                        <div className="relative w-[85px] h-[85px] border-b border-l border-solid border-[#e2e2e2]"></div>
-                        <div className="relative w-[85px] h-[85px] border-b border-l border-solid border-[#e2e2e2]"></div>
-                        <div className="relative w-[85px] h-[85px] border-b border-l border-solid border-[#e2e2e2]"></div>
-                        <div className="relative w-[85px] h-[85px] border-b border-l border-solid border-[#e2e2e2]"></div>
-                        <div className="relative w-[85px] h-[85px] border-b border-l border-solid border-[#e2e2e2]"></div>
-                        <div className="relative w-[85px] h-[85px] border-b border-l border-solid border-[#e2e2e2]"></div>
-                        <div className="relative w-[85px] h-[85px] border-b border-l border-solid border-[#e2e2e2]"></div>
-                        <div className="relative w-[85px] h-[85px] border-b border-l border-solid border-[#e2e2e2]"></div>
-                        <div className="relative w-[85px] h-[85px] border-b border-l border-solid border-[#e2e2e2]"></div>
-                    </div>
-
-                    <div className="relative flex row-span-1 col-start-9 col-span-8">
-                        <div className="relative w-[85px] h-[85px] border-b border-l border-solid border-[#e2e2e2]"></div>
-                        <div className="relative w-[85px] h-[85px] border-b border-l border-solid border-[#e2e2e2]"></div>
-                        <div className="relative w-[85px] h-[85px] border-b border-l border-solid border-[#e2e2e2]"></div>
-                        <div className="relative w-[85px] h-[85px] border-b border-l border-solid border-[#e2e2e2]"></div>
-                        <div className="relative w-[85px] h-[85px] border-b border-l border-solid border-[#e2e2e2]"></div>
-                        <div className="relative w-[85px] h-[85px] border-b border-l border-solid border-[#e2e2e2]"></div>
-                        <div className="relative w-[85px] h-[85px] border-b border-l border-solid border-[#e2e2e2]"></div>
-                        <div className="relative w-[85px] h-[85px] border-b border-l border-solid border-[#e2e2e2]"></div>
-                    </div>
-
-                    <div className="relative flex row-span-1 col-start-9 col-span-8">
-                        <div className="relative w-[85px] h-[85px] border-b border-l border-solid border-[#e2e2e2]"></div>
-                        <div className="relative w-[85px] h-[85px] border-b border-l border-solid border-[#e2e2e2]"></div>
-                        <div className="relative w-[85px] h-[85px] border-b border-l border-solid border-[#e2e2e2]"></div>
-                        <div className="relative w-[85px] h-[85px] border-b border-l border-solid border-[#e2e2e2]"></div>
-                        <div className="relative w-[85px] h-[85px] border-b border-l border-solid border-[#e2e2e2]"></div>
-                        <div className="relative w-[85px] h-[85px] border-b border-l border-solid border-[#e2e2e2]"></div>
-                        <div className="relative w-[85px] h-[85px] border-b border-l border-solid border-[#e2e2e2]"></div>
-                        <div className="relative w-[85px] h-[85px] border-b border-l border-solid border-[#e2e2e2]"></div>
-                    </div>
-
-                    <div className="relative flex row-span-1 col-start-8 col-span-9">
-                        <div className="relative w-[85px] h-[85px] border-b border-t border-l border-solid border-[#e2e2e2] before:content-[''] before:absolute before:-top-[1px] before:left-0 before:w-full before:h-[1px] before:bg-rebrand-gray-100"></div>
-                        <div className="relative w-[85px] h-[85px] border-b border-l border-solid border-[#e2e2e2]"></div>
-                        <div className="relative w-[85px] h-[85px] border-b border-l border-solid border-[#e2e2e2]"></div>
-                        <div className="relative w-[85px] h-[85px] border-b border-l border-solid border-[#e2e2e2]"></div>
-                        <div className="relative w-[85px] h-[85px] border-b border-l border-solid border-[#e2e2e2]"></div>
-                        <div className="relative w-[85px] h-[85px] border-b border-l border-solid border-[#e2e2e2]"></div>
-                        <div className="relative w-[85px] h-[85px] border-b border-l border-solid border-[#e2e2e2]"></div>
-                        <div className="relative w-[85px] h-[85px] border-b border-l border-solid border-[#e2e2e2]"></div>
-                        <div className="relative w-[85px] h-[85px] border-b border-l border-solid border-[#e2e2e2]"></div>
-                    </div>
-
-                    <div className="relative flex row-span-1 col-start-9 col-span-8">
-                        <div className="relative w-[85px] h-[85px] border-b border-l border-solid border-[#e2e2e2]"></div>
-                        <div className="relative w-[85px] h-[85px] border-b border-l border-solid border-[#e2e2e2]"></div>
-                        <div className="relative w-[85px] h-[85px] border-b border-l border-solid border-[#e2e2e2]"></div>
-                        <div className="relative w-[85px] h-[85px] border-b border-l border-solid border-[#e2e2e2]"></div>
-                        <div className="relative w-[85px] h-[85px] border-b border-l border-solid border-[#e2e2e2]"></div>
-                        <div className="relative w-[85px] h-[85px] border-b border-l border-solid border-[#e2e2e2]"></div>
-                        <div className="relative w-[85px] h-[85px] border-b border-l border-solid border-[#e2e2e2]"></div>
-                        <div className="relative w-[85px] h-[85px] border-b border-l border-solid border-[#e2e2e2]"></div>
-                    </div>
-
-                    <div className="relative flex row-span-1 col-start-10 col-span-7">
-                        <div className="relative w-[85px] h-[85px] border-b border-l border-solid border-[#e2e2e2] before:content-[''] before:absolute before:-top-[1px] before:left-0 before:w-full before:h-[1px] before:bg-rebrand-gray-100"></div>
-                        <div className="relative w-[85px] h-[85px] border-b border-l border-solid border-[#e2e2e2]"></div>
-                        <div className="relative w-[85px] h-[85px] border-b border-l border-solid border-[#e2e2e2]"></div>
-                        <div className="relative w-[85px] h-[85px] border-b border-l border-solid border-[#e2e2e2]"></div>
-                        <div className="relative w-[85px] h-[85px] border-b border-l border-solid border-[#e2e2e2]"></div>
-                        <div className="relative w-[85px] h-[85px] border-b border-l border-solid border-[#e2e2e2]"></div>
-                        <div className="relative w-[85px] h-[85px] border-b border-l border-solid border-[#e2e2e2]"></div>
-                    </div>
-
-
-                </div>
-            </div>
-        </div>
     )
 }
 

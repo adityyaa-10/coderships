@@ -1,6 +1,6 @@
 const MainFooter = () => {
     return (
-        <footer className="bg-black">
+        <footer className="bg-black block">
             <div className="relative">
                 <div className='container px-5 md:px-12 lg:px-32 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col'>
                     <div className="w-full md:w-1/2 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
