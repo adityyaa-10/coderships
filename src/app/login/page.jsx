@@ -22,7 +22,7 @@ const LoginPage = () => {
                 <div className='w-full lg:w-1/2 h-screen flex flex-col justify-center items-center px-5 lg:px-0'>
                     <div className='text-left'>
                         <h1 className={`text-[#8980F580] text-[50px] lg:text-[70px] ${boldFont.className}`}>Build it</h1>
-                        <p className='pt-4 lg:pt-8 text-[1.125rem] lg:text-[24px] max-w-[470px] text-[#544D49CC] leading-[2rem] lg:leading-[2.5rem]'>From Code to Career: Virtual Internships That Get You Hired</p>
+                        <p className='pt-4 text-[1.125rem] lg:text-[24px] max-w-[470px] text-[#544D49CC] leading-[2rem] lg:leading-[2.5rem]'>From Code to Career: Virtual Internships That Get You Hired</p>
                     </div>
 
                     <div className='mt-10 w-full max-w-md'>
