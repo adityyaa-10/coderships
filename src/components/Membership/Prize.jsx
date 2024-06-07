@@ -4,7 +4,7 @@ import Image from 'next/image';
 const Prize = () => {
     return (
         <div className="py-8 md:py-16 max-w-[1250px] mx-auto px-4 md:px-8">
-            <h3 className="font-semibold text-xl md:text-2xl lg:text-3xl text-[#2D2323E5] text-center">
+            <h3 className="font-semibold text-xl md:text-2xl lg:text-3xl leading-[2.5rem] lg:leading-[2.9rem] text-[#2D2323E5] text-center">
                 Ready to start your journey towards <br className="hidden md:block" />
                 landing top 1% internships in tech?
             </h3>
