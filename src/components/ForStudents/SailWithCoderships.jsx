@@ -1,12 +1,18 @@
-
-const SailWithCoderships = () => {
+import React from 'react';
+import Marquee from 'react-fast-marquee'
+const SailwithCoderships = () => {
     return (
-        <div >
-            <p className='text-[#FF553D99] font-semibold text-[5.5vw] text-center py-9 lg:py-16 bg-white'>
-                {"< Sail with Coderships >"}
-            </p>
+        <div className="py-9 lg:py-24 w-full flex items-center justify-center text-[#FF553D80] font-bold whitespace-nowrap overflow-hidden">
+            <Marquee>
+                <span className="text-[9.5vw]  lg:text-[5vw]">
+                    {" < Sail With Coderships >/ "}
+                </span>
+                <span className="text-[9.5vw]  lg:text-[5vw]">
+                    {" < Sail With Coderships >/ "}
+                </span>
+            </Marquee>
         </div>
-    )
+    );
 }
 
-export default SailWithCoderships
+export default SailwithCoderships;

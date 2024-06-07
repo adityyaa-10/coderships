@@ -23,9 +23,23 @@ const imageSources1 = [
     "https://ik.imagekit.io/internquest/Group%2062-min.svg?updatedAt=1709201319215",
     "https://ik.imagekit.io/internquest/Group%2059-min.svg?updatedAt=1709201319271",
     "https://ik.imagekit.io/internquest/Group%2074-min.svg?updatedAt=1709201321935",
+    "https://ik.imagekit.io/internquest/Group%2070-min.svg?updatedAt=1709201321903",
+    "https://ik.imagekit.io/internquest/Group%2065-min.svg?updatedAt=1709201319273",
+    "https://ik.imagekit.io/internquest/Group%2069-min.svg?updatedAt=1709201319219",
+    "https://ik.imagekit.io/internquest/Group%2049-min.svg?updatedAt=1709201319281",
+    "https://ik.imagekit.io/internquest/Group%2062-min.svg?updatedAt=1709201319215",
+    "https://ik.imagekit.io/internquest/Group%2059-min.svg?updatedAt=1709201319271",
 ];
 
 const imageSources2 = [
+    "https://ik.imagekit.io/internquest/Group%2064-min.svg?updatedAt=1709201319241",
+    "https://ik.imagekit.io/internquest/Group%2047-min.svg?updatedAt=1709201319230",
+    "https://ik.imagekit.io/internquest/Group%2048-min.svg?updatedAt=1709201319222",
+    "https://ik.imagekit.io/internquest/Group%2067-min.svg?updatedAt=1709201319227",
+    "https://ik.imagekit.io/internquest/Group%2046-min.svg?updatedAt=1709201319232",
+    "https://ik.imagekit.io/internquest/Group%2076-min.svg",
+    "https://ik.imagekit.io/internquest/Group%2072-min.svg",
+    "https://ik.imagekit.io/internquest/Group%2075-min.svg",
     "https://ik.imagekit.io/internquest/Group%2064-min.svg?updatedAt=1709201319241",
     "https://ik.imagekit.io/internquest/Group%2047-min.svg?updatedAt=1709201319230",
     "https://ik.imagekit.io/internquest/Group%2048-min.svg?updatedAt=1709201319222",

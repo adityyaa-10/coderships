@@ -2,8 +2,8 @@ const Tagline = () => {
     return (
         <div className="text-center w-full justify-center items-center flex flex-col pb-12">
             <div className="w-full px-4 gap-2 text-center flex flex-wrap justify-center items-center max-w-[845px] mx-auto">
-                <p className="text-[20px] lg:text-[40px] font-semibold text-[#FF822D]">Focus on what matters the most</p>
-                <p className="text-[20px] lg:text-[40px] font-semibold leading-[150%] tracking-[-.02em]">
+                <p className="text-[33px] lg:text-[40px] font-semibold text-[#FF822D] tracking-[0.015em]">Focus on what matters the most</p>
+                <p className="text-[20px] lg:text-[40px] font-semibold leading-[150%] ">
                     <svg width="30" height="50" viewBox="0 0 36 51" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M20.25 25.5H15.75C9.0601 31.6559 3 37.5826 3 43.5293C3 45.6999 3.8979 47.7706 5.4697 49.5059H30.5303C32.1021 47.7706 33 45.6999 33 43.5293C33 37.5826 26.9399 31.6559 20.25 25.5Z" fill="#F7F0EB" />
                         <path d="M33 43.5293C33 37.5826 26.9399 31.6559 20.25 25.5H18V49.5059H30.5303C32.1021 47.7706 33 45.6999 33 43.5293Z" fill="#E1D3CE" />
@@ -25,8 +25,8 @@ const Tagline = () => {
                 </p>
             </div>
 
-            <p className="text-[#544D49] text-[20px] leading-[2.25rem] max-w-[644px] tracking-tight mx-auto pt-4" >
-                Keep learning and grow your skills by completing Codeships, building
+            <p className="text-[#544D49] text-[20px] leading-[2.4rem] lg:leading-[2.5rem] max-w-[670px] mx-auto pt-4" >
+                Keep learning and grow your skills by completing Coderships, building
                 your projects portfolios, and start getting noticed by emerging startups
             </p>
         </div>

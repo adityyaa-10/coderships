@@ -21,29 +21,15 @@ summary::-webkit-details-marker {
 }
 
 summary {
-    padding: .75em 1em;
+    padding: .75em;
     background-color: white;
+    color: black;
     cursor: pointer;
     position: relative;
-    padding-left: calc(1.75rem + .75rem + .75rem);
 }
 
-summary:before {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    left: .75rem;
-    content: "✨";
-    width: 1.75rem;
-    height: 1.75rem;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    flex-shrink: 0;
-}
 
 details[open] summary {
-    background-color: #1427d3;
+    background-color: #2667FF;
     color: white;
-
 }

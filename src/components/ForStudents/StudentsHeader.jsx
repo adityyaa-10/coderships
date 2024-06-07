@@ -19,18 +19,22 @@ const StudentsHeader = () => {
                     />
                 </h1>
 
-                <p className='leading-[2.5rem] text-[#FFFFFF60] px-4 max-w-[667px]'>
+                <p className='text-[1.3rem] leading-[2.2rem] md:text-[1.5rem] text-left md:text-center md:leading-[2.75rem] font-medium-sans text-[#7A7A7A] md:pl-0 py-2 lg:py-4 max-w-[720px] mx-auto px-4 lg:px-0'>
                     Are you ready to take your coding skills to the next level & land your dream
                     internship? Look no further than Coderships is the ultimate platform for
                     students to upskill, compete, showcase & win dream internship offers.
                 </p>
+                <button className="w-[158px] h-[50px] mt-4 bg-[#6941c6] text-white rounded-[10px] mb-9">
+                    Get Started
+                </button>
             </div>
 
             <div className="bg-black flex items-center justify-center text-white">
-                <h2 className='max-w-[641px] text-[3.59vw] lg:text-[1.5vw] mx-auto py-9 md:py-16 lg:py-24 px-4 md:px-7'>
+                <p className='text-[1.75rem] max-w-[300px] lg:max-w-full text-left leading-[3.2rem] lg:text-center lg:text-[2.2vw] mx-auto py-9 md:py-16 lg:py-24 md:px-7'>
                     Your passport to land dream internships in tech
-                </h2>
+                </p>
             </div>
+
 
         </div>
     )

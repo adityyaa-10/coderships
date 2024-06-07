@@ -9,7 +9,7 @@ const LoginPage = () => {
     return (
         <div className="relative bg-white">
             <div className='flex justify-between items-start w-full '>
-                <div className="text-black flex py-6 w-full flex-col items-center justify-center lg:items-start lg:justify-between min-h-screen ">
+                <div className="text-black flex py-6 w-full flex-col items-center justify-center xl:items-start lg:justify-between min-h-screen ">
                     <div className="px-7 lg:px-16 py-12 lg:py-24">
                         <h1 className='text-[2rem] tracking-[-0.28px] font-medium'>
                             Sign in to your account
