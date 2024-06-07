@@ -1,3 +1,5 @@
+"use client";
+import CountUp from 'react-countup'
 const Prize = () => {
     return (
         <div className="bg-[#171717] flex flex-col items-center justify-center px-5 py-9 md:py-16 lg:py-20">
@@ -12,7 +14,7 @@ const Prize = () => {
             <div className="text-[#FFFFFF80] flex gap-2 items-baseline font-semibold">
                 <p className="text-xl sm:text-[1.5rem] lg:text-[3rem] ">Rs.</p>
                 <p className='text-[4.5rem] sm:text-[6rem] lg:text-[8rem] font-bold'>
-                    1,00,000
+                    <CountUp end={100000} duration={4} delay={2} separator="," />
                 </p>
             </div>
         </div>

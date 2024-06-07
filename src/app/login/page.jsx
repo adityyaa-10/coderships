@@ -5,6 +5,8 @@ import google from '@/assets/Login/google.svg'
 import Link from 'next/link'
 import LoginSignupGrid from '@/components/LoginSignupGrid'
 import localfont from "next/font/local";
+import Navbar from '@/components/Navbar'
+import MainFooter from '@/components/Footer'
 
 const boldFont = localfont({
     src: [
@@ -18,6 +20,7 @@ const boldFont = localfont({
 const LoginPage = () => {
     return (
         <div className="bg-white">
+            <Navbar />
             <div className='relative flex'>
                 <div className='w-full lg:w-1/2 h-screen flex flex-col justify-center items-center px-5 lg:px-0'>
                     <div className='text-left'>
@@ -86,6 +89,7 @@ const LoginPage = () => {
                     <LoginSignupGrid />
                 </div>
             </div>
+            <MainFooter />
         </div>
     )
 }
