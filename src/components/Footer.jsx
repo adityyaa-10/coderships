@@ -13,20 +13,20 @@ const MainFooter = () => {
                         <div className="w-full md:w-1/2 px-4">
                             <nav className="list-none mb-10">
                                 <li>
-                                    <p className="text-[#858585] py-2">First Link</p>
+                                    <p className="text-[#858585] py-2">About us</p>
                                 </li>
                                 <li>
-                                    <p className="text-[#858585] py-2">Second Link</p>
+                                    <p className="text-[#858585] py-2">For Students</p>
                                 </li>
                             </nav>
                         </div>
                         <div className="w-full md:w-1/2 px-4 pb-6 md:pb-0">
                             <nav className="list-none mb-10">
                                 <li>
-                                    <p className="text-[#858585] py-2">First Link</p>
+                                    <p className="text-[#858585] py-2">FDDIC'24</p>
                                 </li>
                                 <li>
-                                    <p className="text-[#858585] py-2">Second Link</p>
+                                    <p className="text-[#858585] py-2">Membership</p>
                                 </li>
                             </nav>
                         </div>
