@@ -1,3 +1,4 @@
+import Banner from "@/components/Banner"
 import FirstCard from "@/components/Features/FeatureCards/FirstCard"
 import SecondCard from "@/components/Features/FeatureCards/SecondCard"
 import ThirdCard from "@/components/Features/FeatureCards/ThirdCard"
@@ -15,6 +16,7 @@ const FeaturesPage = () => {
                 <SecondCard />
                 <ThirdCard />
             </div>
+            <Banner />
             <MainFooter />
         </>
     )

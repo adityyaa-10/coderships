@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
 
-      <body className={`overflow-x-hidden ${regular.className} bg-[#1B1B1B] `}>
+      <body className={`overflow-x-hidden ${regular.className}  `}>
         <div className="">
           <NextNProgress color="#ffffff" />
           {children}
