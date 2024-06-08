@@ -13,12 +13,10 @@ const StudentsPage = () => {
             <Navbar />
             <StudentsHeader />
             <YourPassport />
-            <div className="bg-white">
-                <ChangingApproach />
-                <Tagline />
-                <Accordion />
-                <SailWithCoderships />
-            </div>
+            <ChangingApproach />
+            <Tagline />
+            <Accordion />
+            <SailWithCoderships />
             <MainFooter />
         </>
     )

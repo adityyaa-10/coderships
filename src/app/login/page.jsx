@@ -19,9 +19,9 @@ const LoginPage = () => {
     const TypewriterMemoized = React.memo(Typewriter);
     return (
         <>
-            <div className="bg-white">
-                <div className='relative flex '>
-                    <div className='w-full lg:w-1/2 flex flex-col justify-center items-center px-5 lg:px-0 py-8 md:py-20 lg:py-32'>
+            <div className="max-w-[1500px] mx-auto">
+                <div className='relative '>
+                    <div className='w-full flex flex-col items-center justify-center lg:items-start lg:ml-10 xl:ml-24 lg:px-0 py-8 md:py-20 lg:py-32'>
                         <div className='text-left'>
                             <h1 className={`text-[#8980F580] text-[50px] lg:text-[70px] ${boldFont.className}`}><TypewriterMemoized
                                 words={['Build it', 'Build it']}
@@ -64,8 +64,7 @@ const LoginPage = () => {
                         </div>
                     </div>
 
-
-                    <div className='hidden lg:flex w-1/2'>
+                    <div className='hidden lg:flex w-full absolute top-0 right-0 max-w-[750px]'>
                         <LoginSignupGrid />
                     </div>
                 </div>

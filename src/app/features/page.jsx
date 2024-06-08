@@ -11,11 +11,9 @@ const FeaturesPage = () => {
         <>
             <Navbar />
             <Header />
-            <div className="bg-white">
-                <FirstCard />
-                <SecondCard />
-                <ThirdCard />
-            </div>
+            <FirstCard />
+            <SecondCard />
+            <ThirdCard />
             <Banner />
             <MainFooter />
         </>

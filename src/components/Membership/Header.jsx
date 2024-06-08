@@ -5,7 +5,7 @@ import c from '@/assets/Membership/c.svg'
 
 const Header = () => {
     return (
-        <div className='relative'>
+        <div className='relative bg-[#1B1B1B]'>
             <div>
                 <div className="absolute top-0 w-[100px] h-[100px] lg:w-[150px] lg:h-[150px] bg-[#4A4A4A80] flex justify-center items-center" >
                     <Image src={powershell} alt="" className="p-4" />

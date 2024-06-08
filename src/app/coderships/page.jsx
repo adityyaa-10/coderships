@@ -10,11 +10,9 @@ const CodershipsPage = () => {
         <>
             <Navbar />
             <Header />
-            <div className="bg-white">
-                <AboutCoderships />
-                <TechMatrix />
-                <WhyCoderships />
-            </div>
+            <AboutCoderships />
+            <TechMatrix />
+            <WhyCoderships />
             <MainFooter />
         </>
     )

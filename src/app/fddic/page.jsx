@@ -14,15 +14,13 @@ const FDDICPage = () => {
         <>
             <Navbar />
             <Header />
-            <div className="bg-white">
-                <Stats />
-                <EventDetails />
-                <TechMarquee />
-                <HowItWorks />
-                <Prize />
-                <HowToApply />
-                <JoinUs />
-            </div>
+            <Stats />
+            <EventDetails />
+            <TechMarquee />
+            <HowItWorks />
+            <Prize />
+            <HowToApply />
+            <JoinUs />
             <MainFooter />
         </>
     )

@@ -10,11 +10,9 @@ const AboutPage = () => {
         <>
             <Navbar />
             <Header />
-            <div className="bg-white">
-                <GoalCards />
-                <TagLine />
-                <Vision />
-            </div>
+            <GoalCards />
+            <TagLine />
+            <Vision />
             <MainFooter />
         </>
     )

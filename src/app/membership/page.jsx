@@ -11,11 +11,9 @@ const MembershipPage = () => {
         <>
             <Navbar />
             <Header />
-            <div className="bg-white">
-                <Gateway />
-                <Prize />
-                <NoteForStudents />
-            </div>
+            <Gateway />
+            <Prize />
+            <NoteForStudents />
             <MainFooter />
         </>
     )

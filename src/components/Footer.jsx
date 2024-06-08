@@ -26,7 +26,7 @@ const MainFooter = () => {
                     <div className="relative">
                         <div className='container px-5 md:px-12 lg:px-32 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col'>
                             <div className="w-full md:w-1/2 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
-                                <a className="flex font-medium text-white justify-center md:justify-start">
+                                <a href='/' className="flex font-medium text-white justify-center md:justify-start">
                                     <span className="text-5xl">{'{Coderships}'}</span>
                                 </a>
                                 <p className="mt-5 text-xl text-[#FFFFFFB2] max-w-[350px] leading-[2rem] mx-auto md:mx-0">Build It, Prove It, Land Your Dream Internship</p>
