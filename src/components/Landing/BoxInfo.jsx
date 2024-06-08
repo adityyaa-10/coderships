@@ -2,7 +2,7 @@ import React from 'react';
 
 const BoxInfo = () => {
     return (
-        <div className="max-w-screen-lg mx-auto">
+        <div data-aos="fade-up" data-aos-duration="1500" className="max-w-screen-lg mx-auto">
             {/* Top Block */}
             <div className="border border-[#D9D9D9] relative">
                 <div className="absolute top-12 left-0 right-0 h-[1px] bg-[#D9D9D9]" />

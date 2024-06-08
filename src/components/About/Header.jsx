@@ -18,7 +18,7 @@ const Header = () => {
                         <div className="border border-r-0 absolute top-[75px] lg:top-[100px] right-0 border-[#d7d7d783] h-[75px] lg:h-[100px] w-[75px] lg:w-[250px]"></div>
                     </div>
                     <div className="pt-48 pb-16 lg:py-0 lg:mb-72 text-center lg:text-left mx-auto lg:max-w-[550px] lg:mx-0 px-4 ">
-                        <h2 className="font-semibold text-3xl md:text-[30px] leading-[3.125rem] md:leading-[3.25rem] lg:text-[36px]  lg:leading-[3rem] xl:leading-[3.85rem] text-left ">
+                        <h2 data-aos="fade-right" data-aos-duration="1500" className="font-semibold text-3xl md:text-[30px] leading-[3.125rem] md:leading-[3.25rem] lg:text-[36px]  lg:leading-[3rem] xl:leading-[3.85rem] text-left ">
                             Empowering the next generation of student coders to reach new heights through innovative <span className="text-[#8980F5]">Coderships</span>
                         </h2>
                     </div>

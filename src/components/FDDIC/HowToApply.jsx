@@ -1,6 +1,6 @@
 const HowToApply = () => {
     return (
-        <div className='text-center max-w-[720px] mx-auto px-5 py-9 md:py-16 lg:py-20'>
+        <div data-aos="fade-up" data-aos-duration="1500" className='text-center max-w-[720px] mx-auto px-5 py-9 md:py-16 lg:py-20'>
             <h5 className="font-semibold text-[2rem] text-[#2D2323D9]" >
                 How to apply
             </h5>

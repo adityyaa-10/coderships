@@ -1,6 +1,6 @@
 const EventDetails = () => {
     return (
-        <div className="py-12 lg:py-24 flex flex-col lg:items-center lg:justify-center text-[1.125rem] px-[12px] md:px-12 leading-[2.5rem] lg:text-[1.25rem] lg:leading-[2.7rem] text-[#544D49] max-w-[760px] mx-auto font-medium">
+        <div data-aos="fade-up" data-aos-duration="1500" className="py-12 lg:py-24 flex flex-col lg:items-center lg:justify-center text-[1.125rem] px-[12px] md:px-12 leading-[2.5rem] lg:text-[1.25rem] lg:leading-[2.7rem] text-[#544D49] max-w-[760px] mx-auto font-medium">
             <p className="text-left">
                 Welcome to the  FDIC 24, a once-in a-year opportunity that you won't want to
                 miss!

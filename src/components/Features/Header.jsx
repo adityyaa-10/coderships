@@ -12,10 +12,10 @@ export const Header = () => {
                 </div>
             </div>
             <div className="items-center justify-center pt-24 lg:pt-[220px] flex flex-col space-y-12 w-full">
-                <h1 className="text-[1.5rem] leading-[3rem] md:text-4xl md:leading-[4rem] lg:text-[3rem] lg:leading-[4.5rem] tracking-wide font-bold  text-center max-w-[677px] px-4">
+                <h1 data-aos="fade-right" data-aos-duration="1500" className="text-[1.5rem] leading-[3rem] md:text-4xl md:leading-[4rem] lg:text-[3rem] lg:leading-[4.5rem] tracking-wide font-bold  text-center max-w-[677px] px-4">
                     Features designed to <span className='text-[#8980F5]'>Launch your Career </span> in tech
                 </h1>
-                <div className="text-[1.5rem] text-[#FFFFFFE5] border-2 border-[#D7D7D750] max-w-[650px] px-6 mx-4 py-14">
+                <div data-aos="fade-left" data-aos-duration="1500" className="text-[1.5rem] text-[#FFFFFFE5] border-2 border-[#D7D7D750] max-w-[650px] px-6 mx-4 py-14">
                     Discover the unique features that Coderships has to
                     offer, designed to revolutionize the way students
                     demonstrate their coding skills

@@ -20,7 +20,7 @@ const FirstCard = () => {
                 </div>
                 <div className="w-full lg:w-1/2 bg-[#FF553D] grid grid-cols-5 relative h-[500px] md:h-screen">
                     <div className="absolute inset-0 flex items-center justify-center p-4 md:p-16 lg:p-20 xl:p-24">
-                        <Image src={'/firstcard.svg'} fill className='p-8 md:p-24' alt="Central Image" />
+                        <Image data-aos="zoom-in" data-aos-duration="1500" src={'/firstcard.svg'} fill className='p-8 md:p-24' alt="Central Image" />
                     </div>
 
                     <div className="grid grid-rows-5">

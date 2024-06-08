@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 const NoteForStudents = () => {
     return (
-        <div className="flex flex-col justify-center items-center w-full py-8 md:py-16 px-4">
+        <div data-aos="fade-up" data-aos-duration="1500" className="flex flex-col justify-center items-center w-full py-8 md:py-16 px-4">
             <div>
                 <h4 className="text-lg md:text-xl text-[#FF9100] text-center mb-4 font-medium">
                     Important Note for students

@@ -18,7 +18,7 @@ const Header = () => {
                 </div>
                 <div className="w-[100px] h-[70px] lg:w-[200px] lg:h-[100px] bg-[#d9d9d925] flex justify-center absolute top-[70px] lg:top-[100px] right-[70px] lg:right-[100px]" />
             </div>
-            < div className={` space-y-8 flex flex-col items-start justify-center px-[60px] lg:px-[270px] pt-[200px] lg:pt-[270px] pb-[100px] lg:pb-[150px]`
+            < div data-aos="zoom-in" data-aos-duration="1500" className={` space-y-8 flex flex-col items-start justify-center px-[60px] lg:px-[270px] pt-[200px] lg:pt-[270px] pb-[100px] lg:pb-[150px]`
             } >
 
                 <h1 className={`font-semibold text-[2.75rem] text-white `}>

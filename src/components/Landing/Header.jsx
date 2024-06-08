@@ -1,3 +1,4 @@
+"use client";
 import Image from "next/image";
 import localfont from "next/font/local";
 import underlineEffect from "@/assets/Header/vector.svg";
@@ -8,6 +9,7 @@ const semibold = localfont({
 });
 
 const Header = () => {
+
     return (
         <header className="bg-[#1B1B1B] mb-0">
             <div className="block pb-4">
@@ -51,7 +53,7 @@ const Header = () => {
             </div>
             <div className="flex items-center justify-center md:min-h-[900px] mt-48 md:mt-0 px-4 lg:px-56 2xl:px-80 space-y-6 lg:pt-24 w-full">
                 <div className="relative text-center py-4">
-                    <div className="absolute px-4 py-1 sm:mt-0 -top-4 md:-top-5 xl:left-5 transform -rotate-3 text-base md:text-[20px] font-medium text-white bg-[#3065EE] rounded-[15px]">
+                    <div data-aos="fade-right" data-aos-duration="1500" ta-ao className="absolute px-4 py-1 sm:mt-0 -top-4 md:-top-5 xl:left-5 transform -rotate-3 text-base md:text-[20px] font-medium text-white bg-[#3065EE] rounded-[15px]">
                         Land your dream internship
                     </div>
                     <h1
@@ -62,7 +64,7 @@ const Header = () => {
                         <span className="relative">
                             dream{' '}
                             <span className="absolute left-0 top-8 lg:top-9 w-full bottom-0">
-                                <Image src={underlineEffect} width={350} height={100} className='mt-3 lg:mt-5 w-[300px] lg:w-[420px] absolute' />
+                                <Image data-aos="fade-left" data-aos-duration="2000" src={underlineEffect} width={350} height={100} className='mt-3 lg:mt-5 w-[300px] lg:w-[420px] absolute' />
                             </span>
                         </span>
                         internships in tech

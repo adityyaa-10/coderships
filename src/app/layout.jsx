@@ -1,9 +1,9 @@
 "use client";
 import localfont from "next/font/local"
 import "./globals.css";
-import Navbar from "@/components/Navbar";
-import MainFooter from "@/components/Footer";
-import NextNProgress from 'nextjs-progressbar';
+import Aos from "aos";
+import { useEffect } from "react";
+import 'aos/dist/aos.css';
 
 const regular = localfont(
   {
@@ -17,15 +17,16 @@ const regular = localfont(
 )
 
 
+
 export default function RootLayout({ children }) {
+  useEffect(() => {
+    Aos.init();
+  }, []);
   return (
     <html lang="en">
 
       <body className={`overflow-x-hidden ${regular.className}  `}>
-        <div className="">
-          <NextNProgress color="#ffffff" />
-          {children}
-        </div>
+        {children}
       </body>
     </html>
   );

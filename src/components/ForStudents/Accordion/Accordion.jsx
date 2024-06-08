@@ -4,7 +4,7 @@ const Accordion = () => {
         <div className={` text-[#1B1B1B]`} >
             <div className="bg-[#F4F5F7] lg:mx-6 py-6">
                 <div className={` container max-w-3xl  margin-[2em] mx-auto text-black pt-4 px-[8px]`}>
-                    <div className="bg-white py-4 mb-8 px-4 rounded-xl min-h-[80px] ">
+                    <div data-aos="fade-right" data-aos-duration="1500" className="bg-white py-4 mb-8 px-4 rounded-xl min-h-[80px] ">
                         <details  >
                             <summary className='pl-[11px] lg:pl-4 flex justify-between rounded-xl text-[24px] pr-2 '>
                                 {"{  Let your projects speak about your skills }"}
@@ -19,7 +19,7 @@ const Accordion = () => {
                             </div>
                         </details>
                     </div>
-                    <div className="bg-white py-4 mb-8 px-4 rounded-xl min-h-[80px] ">
+                    <div data-aos="fade-left" data-aos-duration="1500" className="bg-white py-4 mb-8 px-4 rounded-xl min-h-[80px] ">
                         <details >
                             <summary className={`pl-[11px] lg:pl-4 flex justify-between rounded-xl text-[24px] pr-2 `}>
                                 {"{  Coderships to inspire you }"}
@@ -35,7 +35,7 @@ const Accordion = () => {
                             </div>
                         </details>
                     </div>
-                    <div className="bg-white py-4 mb-8 px-4 rounded-xl min-h-[80px]">
+                    <div data-aos="fade-right" data-aos-duration="1500" className="bg-white py-4 mb-8 px-4 rounded-xl min-h-[80px]">
                         <details>
                             <summary className='pl-[11px] lg:pl-4 flex justify-between rounded-xl text-[24px] pr-2'>
                                 {"{  Let your projects speak about your skills }"}
@@ -50,7 +50,7 @@ const Accordion = () => {
                             </div>
                         </details>
                     </div>
-                    <div className="bg-white py-4 mb-8 px-4 rounded-xl min-h-[80px]">
+                    <div data-aos="fade-left" data-aos-duration="1500" className="bg-white py-4 mb-8 px-4 rounded-xl min-h-[80px]">
                         <details >
                             <summary className='pl-[11px] lg:pl-4 flex justify-between rounded-xl text-[24px] pr-2 '>
                                 {"{  It’s all about real-time projects work experience }"}
@@ -65,7 +65,7 @@ const Accordion = () => {
                             </div>
                         </details>
                     </div>
-                    <div className="bg-white py-4 mb-8 px-4 rounded-xl min-h-[80px]">
+                    <div data-aos="fade-right" data-aos-duration="1500" className="bg-white py-4 mb-8 px-4 rounded-xl min-h-[80px]">
                         <details >
                             <summary className='pl-[11px] lg:pl-4 flex justify-between rounded-xl text-[24px] pr-2 '>
                                 {"{  You are not alone, join our community }"}

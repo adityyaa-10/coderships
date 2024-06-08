@@ -1,6 +1,6 @@
 const AboutCoderships = () => {
     return (
-        <div className="py-6 lg:py-24 flex items-center justify-center text-[1rem] px-2 leading-[2rem] lg:text-[1.25rem] lg:leading-[2.7rem] text-[#544D49] max-w-[760px] mx-auto font-medium">
+        <div data-aos="fade-up" data-aos-duration="1500" className="py-6 lg:py-24 flex items-center justify-center text-[1rem] px-2 leading-[2rem] lg:text-[1.25rem] lg:leading-[2.7rem] text-[#544D49] max-w-[760px] mx-auto font-medium">
             <p>
                 Coderships are curated, project-based challenges designed for student coders
                 like you to put your skills to test and accomplish the challenge of  building real-

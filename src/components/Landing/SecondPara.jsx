@@ -26,7 +26,7 @@ const medium = localfont(
 
 const SecondPara = () => {
     return (
-        <div className="py-9 md:py-16` lg:py-32 text-black text-left md:text-center space-y-4 px-4">
+        <div data-aos="fade-up" data-aos-duration="2500" className="py-9 md:py-16` lg:py-32 text-black text-left md:text-center space-y-4 px-4">
             <h3 className={` ${regular.className} tracking-[-0.015em] text-[1.75rem] leading-[3rem] lg:text-[2.5rem] relative inline-block`}>
                 A new way to land{' '}
                 <span className="relative ">

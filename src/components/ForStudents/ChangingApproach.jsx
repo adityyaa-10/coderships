@@ -1,6 +1,6 @@
 const ChangingApproach = () => {
     return (
-        <div className="py-12 md:py-20 lg:pt-[110px] lg:pb-[100px]">
+        <div data-aos="fade-up" data-aos-duration="1500" className="py-12 md:py-20 lg:pt-[110px] lg:pb-[100px]">
             <h1 className="text-[33px] lg:text-[40px] font-semibold text-[#1b1b1b64] tracking-[0.015em] text-center px-5">Changing the approach...</h1>
             <div className="flex flex-col lg:flex-row max-w-[1200px] px-[6px] lg:px-5 mx-auto pt-[50px]">
 

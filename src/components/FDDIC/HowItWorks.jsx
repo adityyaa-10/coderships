@@ -1,6 +1,6 @@
 const HowItWorks = () => {
     return (
-        <div className="space-y-8 py-16 max-w-[1200px] mx-auto px-5 md:px-12">
+        <div data-aos="fade-up" data-aos-duration="1500" className="space-y-8 py-16 max-w-[1200px] mx-auto px-5 md:px-12">
             <h3 className="text-[2rem] text-[#8980F5] text-center font-semibold">
                 How it works
             </h3>
