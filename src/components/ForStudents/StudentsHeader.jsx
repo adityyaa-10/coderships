@@ -20,18 +20,20 @@ const StudentsHeader = () => {
                 </div>
             </div>
             <div className="items-center justify-center pt-[180px] lg:pt-[250px] flex flex-col w-full">
-                <h1 className={`text-[2.5rem] lg:text-[3rem] font-semibold text-start text-white px-4 md:px-6 lg:px-0`} >
+                <h1 data-aos="fade-right" data-aos-duration="1500" className={`text-[2.5rem] lg:text-[3rem] font-semibold text-start text-white px-4 md:px-6 lg:px-0`} >
                     <span className='font-medium'>Compete in coderships to get</span> <br />
+                </h1>
+                <h2 className={`text-[2.5rem] lg:text-[3rem] font-semibold text-start text-white px-4 md:px-6 lg:px-0`}>
                     <TypewriterMemoized
-                        words={['dream internship offers', 'referral dream companies']}
+                        words={['dream internship offers', 'referral in dream companies']}
                         loop={0}
                         cursor
                         typeSpeed={70}
                         deleteSpeed={50}
                         delaySpeed={1000}
                     />
-                </h1>
-                <p className='text-[1.3rem] leading-[2.2rem] md:text-[1.5rem] text-left md:text-center md:leading-[2.75rem] text-[#7A7A7A] md:pl-0 py-4 max-w-[720px] mx-auto px-4 lg:px-0'>
+                </h2>
+                <p data-aos="fade-left" data-aos-duration="1500" className='text-[1.3rem] leading-[2.2rem] md:text-[1.5rem] text-left md:text-center md:leading-[2.75rem] text-[#7A7A7A] md:pl-0 py-4 max-w-[720px] mx-auto px-4 lg:px-0'>
                     Are you ready to take your coding skills to the next level & land your dream
                     internship? Look no further than Coderships is the ultimate platform for
                     students to upskill, compete, showcase & win dream internship offers.
