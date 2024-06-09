@@ -1,7 +1,7 @@
 const WhyCoderships = () => {
     return (
         <div className='w-full flex flex-col items-center bg-[#171717] text-white'>
-            <div className="max-w-[1100px] mx-auto px-6">
+            <div data-aos="fade-up" data-aos-duration="1500" className="max-w-[1100px] mx-auto px-6">
                 <h3 className='pt-16 text-[2rem] font-semibold text-center'>
                     Why Coderships?
                 </h3>

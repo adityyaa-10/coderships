@@ -1,19 +1,10 @@
 "use client";
 import Link from 'next/link'
 import LoginSignupGrid from '@/components/LoginSignupGrid'
-import localfont from "next/font/local";
 import MainFooter from '@/components/Footer'
 import React from "react";
 import { Typewriter } from 'react-simple-typewriter'
-
-const boldFont = localfont({
-    src: [
-        {
-            path: "../../fonts/GeneralSans-Bold.otf"
-        }
-    ],
-    variable: "--font-MediumSans"
-});
+import { boldFont } from '@/utils/fonts'
 
 const LoginPage = () => {
     const TypewriterMemoized = React.memo(Typewriter);

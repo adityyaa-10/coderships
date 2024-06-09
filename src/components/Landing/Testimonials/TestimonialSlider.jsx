@@ -7,12 +7,6 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-import localFont from 'next/font/local';
-
-const regularFont = localFont({
-    src: '../../../fonts/GeneralSans-Medium.otf',
-    style: 'normal',
-});
 
 const TestimonialSlider = () => {
     const sliderRef = useRef(null);
@@ -33,11 +27,21 @@ const TestimonialSlider = () => {
         arrows: false,
         responsive: [
             {
+
                 breakpoint: 1100,
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1,
                     initialSlide: 1,
+                },
+            },
+            {
+                breakpoint: 500,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    initialSlide: 1,
+                    centerMode: false,
                 },
             }
         ],
@@ -61,7 +65,7 @@ const TestimonialSlider = () => {
                             ))}
                         </Slider>
                     </div>
-                    <div className={`mt-4 md:mt-9 flex ${regularFont.className} px-4`}>
+                    <div className={`mt-4 md:mt-9 flex px-4`}>
                         <button className="button rounded-full bg-[#4A5FF7] p-2" onClick={previous}>
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"

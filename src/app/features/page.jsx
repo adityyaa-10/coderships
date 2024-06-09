@@ -14,7 +14,7 @@ const FeaturesPage = () => {
             <FirstCard />
             <SecondCard />
             <ThirdCard />
-            <Banner />
+            {/* <Banner /> */}
             <MainFooter />
         </>
     )

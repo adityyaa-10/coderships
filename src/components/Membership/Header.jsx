@@ -2,6 +2,7 @@ import Image from 'next/image'
 import nestjs from '@/assets/Membership/nestjs.svg'
 import powershell from '@/assets/Membership/powershell.svg'
 import c from '@/assets/Membership/c.svg'
+import { semiBoldFont } from '@/utils/fonts'
 
 const Header = () => {
     return (
@@ -21,7 +22,7 @@ const Header = () => {
             < div data-aos="zoom-in" data-aos-duration="1500" className={` space-y-8 flex flex-col items-start justify-center px-[60px] lg:px-[270px] pt-[200px] lg:pt-[270px] pb-[100px] lg:pb-[150px]`
             } >
 
-                <h1 className={`font-semibold text-[2.75rem] text-white `}>
+                <h1 className={`${semiBoldFont.className} text-[2.75rem] text-white `}>
                     You are just one membership
                     <br />
                     away from your dream internship

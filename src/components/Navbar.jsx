@@ -1,17 +1,7 @@
 "use client";
 import Link from "next/link";
 import { useState } from "react";
-import localfont from "next/font/local";
 import { usePathname } from 'next/navigation'
-
-const regular = localfont({
-    src: [
-        {
-            path: "../fonts/GeneralSans-Medium.otf"
-        }
-    ],
-    variable: "--font-regularGeneral"
-});
 
 export default function Navbar() {
     const links = [
@@ -57,7 +47,7 @@ export default function Navbar() {
                     </svg>
                 </button>
                 <Link href="/" className="flex items-center" onClick={() => setIsMenuOpen(false)}>
-                    <span className={`ml-2 ${regular.className} text-lg lg:text-2xl tracking-[-0.015em]`}>
+                    <span className={`ml-2 text-lg lg:text-2xl tracking-[-0.015em]`}>
                         {"{ coderships }"}
                     </span>
                 </Link>

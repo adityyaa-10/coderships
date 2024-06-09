@@ -1,12 +1,8 @@
 "use client";
 import Image from "next/image";
-import localfont from "next/font/local";
 import underlineEffect from "@/assets/Header/vector.svg";
+import { semiBoldFont } from "@/utils/fonts";
 
-const semibold = localfont({
-    src: [{ path: "../../fonts/GeneralSans-Semibold.otf" }],
-    variable: "--font-semiboldSans",
-});
 
 const Header = () => {
 
@@ -53,11 +49,11 @@ const Header = () => {
             </div>
             <div className="flex items-center justify-center md:min-h-[900px] mt-48 md:mt-0 px-4 lg:px-56 2xl:px-80 space-y-6 lg:pt-24 w-full">
                 <div className="relative text-center py-4">
-                    <div data-aos="fade-right" data-aos-duration="1500" ta-ao className="absolute px-4 py-1 sm:mt-0 -top-4 md:-top-5 xl:left-5 transform -rotate-3 text-base md:text-[20px] font-medium text-white bg-[#3065EE] rounded-[15px]">
+                    <div className="absolute px-4 py-1 sm:mt-0 -top-4 md:-top-5 xl:left-5 transform -rotate-3 text-base md:text-[20px] font-medium text-white bg-[#3065EE] rounded-[15px]">
                         Land your dream internship
                     </div>
                     <h1
-                        className={`text-[2.3rem] md:text-[3.1rem] leading-[3.5rem] md:leading-[4.75rem] ${semibold.className} text-white max-w-[800px] text-left md:text-center `}
+                        className={`text-[2.3rem] md:text-[3.1rem] leading-[3.5rem] md:leading-[4.75rem] ${semiBoldFont.className} text-white max-w-[800px] text-left md:text-center `}
                     >
                         Reimagining the way students land {' '}
 

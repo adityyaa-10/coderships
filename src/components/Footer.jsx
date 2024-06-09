@@ -2,17 +2,13 @@ import Link from 'next/link';
 const MainFooter = () => {
     return (
         <div>
-            <div className="flex w-full h-[60px] columns-3 ">
+            <div className="flex w-full h-[60px] ">
                 <div className="border-[#D7D7D7] border border-l-0 w-[20%]" />
                 <div className="border-[#D7D7D7] border border-l-0 w-[10%]" />
-                <div className="border-[#D7D7D7] border border-l-0 w-[10%]" />
-                <div className="border-[#D7D7D7] border border-l-0 w-[30%]" />
-                <div className="border-[#D7D7D7] border border-l-0 w-[10%]" />
-                <div className="border-[#D7D7D7] border border-l-0 w-[30%]" />
                 <div className="border-[#D7D7D7] border border-l-0 w-[20%]" />
-                <div className="border-[#D7D7D7] border border-l-0 w-[30%]" />
+                <div className="border-[#D7D7D7] border border-l-0 w-[20%]" />
                 <div className="border-[#D7D7D7] border border-l-0 w-[10%]" />
-                <div className="border-[#D7D7D7] border border-x-0 w-screen" />
+                <div className="border-[#D7D7D7] border border-l-0 w-[20%]" />
             </div>
             <div className='w-full flex'>
                 <div className='grid grid-cols-1 md:grid-cols-2 w-[10%]'>
@@ -34,20 +30,20 @@ const MainFooter = () => {
                             <div className="flex-grow flex flex-wrap -mb-10 md:mt-0 mt-10 md:text-left text-center w-full md:w-1/2">
                                 <div className="w-full md:w-1/2 px-4">
                                     <nav className="list-none mb-10">
-                                        <li className="text-[#858585] py-2">
+                                        <li className="text-[#858585] py-2 hover:text-white">
                                             <Link href={'/about'}>About us</Link>
                                         </li>
-                                        <li className="text-[#858585] py-2">
+                                        <li className="text-[#858585] py-2 hover:text-white">
                                             <Link href={'/forstudents'}>For Students</Link>
                                         </li>
                                     </nav>
                                 </div>
                                 <div className="w-full md:w-1/2 px-4 pb-6 md:pb-0">
                                     <nav className="list-none mb-10">
-                                        <li className="text-[#858585] py-2">
+                                        <li className="text-[#858585] py-2 hover:text-white">
                                             <Link href={'/fddic'} >FDDIC'24</Link>
                                         </li>
-                                        <li className="text-[#858585] py-2">
+                                        <li className="text-[#858585] py-2 hover:text-white">
                                             <Link href={'/membership'}>Membership</Link>
                                         </li>
                                     </nav>
@@ -55,7 +51,7 @@ const MainFooter = () => {
                             </div>
                         </div>
                         <div className='absolute right-0 bottom-0 font-extrabold text-[#FFFFFF33] md:-mb-11 px-4 md:px-0'>
-                            <p className="text-[3.5rem] sm:text-[4rem] md:text-[8rem] text-[#FFFFFF33] text-center">coderships</p>
+                            <p className="text-[3.5rem] sm:text-[4rem] md:text-[8rem] text-[#FFFFFF33] hover:text-slate-100/50 cursor-pointer text-center">coderships</p>
                         </div>
                     </div>
 

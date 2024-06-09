@@ -1,7 +1,8 @@
+import { semiBoldFont } from "@/utils/fonts"
 const JoinUs = () => {
     return (
         <div className='bg-[#171717] flex items-center justify-center flex-col px-5 py-9 md:py-16 lg:py-20'>
-            <h1 className="font-semibold text-[1.5rem] md:text-[1.75rem] text-white" >
+            <h1 className={`${semiBoldFont.className} text-[1.5rem] md:text-[1.75rem] text-white`} >
                 Join us in empowering the next generation of frontend developers
             </h1>
 
@@ -13,7 +14,7 @@ const JoinUs = () => {
             <button className=' bg-[#6941c6] px-4 py-2 items-center text-center text-[1.125rem] rounded-[5px] text-white' >
                 Apply Now
             </button>
-        </div>
+        </div >
     )
 }
 

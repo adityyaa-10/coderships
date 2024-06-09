@@ -1,22 +1,9 @@
 "use client";
-import localfont from "next/font/local"
 import "./globals.css";
 import Aos from "aos";
 import { useEffect } from "react";
 import 'aos/dist/aos.css';
-
-const regular = localfont(
-  {
-    src: [
-      {
-        path: "../fonts/GeneralSans-Medium.otf"
-      }
-    ],
-    variable: "--font-regularGeneral"
-  }
-)
-
-
+import { mediumFont } from "@/utils/fonts";
 
 export default function RootLayout({ children }) {
   useEffect(() => {
@@ -25,7 +12,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
 
-      <body className={`overflow-x-hidden ${regular.className}  `}>
+      <body className={`overflow-x-hidden ${mediumFont.className}  `}>
         {children}
       </body>
     </html>
