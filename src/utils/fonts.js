@@ -9,6 +9,6 @@ export const mediumFont = localFont({
 })
 
 export const semiBoldFont = localFont({
-    src: './fonts/GeneralSans-SemiBold.otf',
+    src: './fonts/GeneralSans-Semibold.otf',
 })
 
