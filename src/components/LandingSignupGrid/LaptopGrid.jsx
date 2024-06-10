@@ -1,4 +1,4 @@
-const LoginSignupGrid = () => {
+const LaptopGrid = () => {
     return (
         <div className="grid grid-cols-7 w-full aspect-square">
             <div className="border border-[#D7D7D7] border-y-0 border-r-0 flex items-center justify-center"></div>
@@ -53,4 +53,4 @@ const LoginSignupGrid = () => {
     )
 }
 
-export default LoginSignupGrid
+export default LaptopGrid

@@ -1,21 +1,29 @@
 "use client";
 import Link from 'next/link'
-import LoginSignupGrid from '@/components/LoginSignupGrid'
 import MainFooter from '@/components/Footer'
 import React from "react";
 import { Typewriter } from 'react-simple-typewriter'
 import { boldFont } from '@/utils/fonts'
+import MobileGrid from '@/components/LandingSignupGrid/MobileGrid';
+import TabGrid from '@/components/LandingSignupGrid/TabGrid';
+import LaptopGrid from '@/components/LandingSignupGrid/LaptopGrid';
 
 const LoginPage = () => {
     const TypewriterMemoized = React.memo(Typewriter);
     return (
-        <>
-            <div className="max-w-[1550px] mx-auto">
-                <div className='relative '>
-                    <div className='w-full flex flex-col items-center justify-center lg:items-start lg:ml-10 xl:ml-24 lg:px-0 py-8 md:py-20 lg:py-32'>
+        <div className='overflow-hidden'>
+            <div className='relative '>
+                <div className='absolute top-0 left-0 right-0 w-full sm:hidden'>
+                    <MobileGrid />
+                </div>
+                <div className='absolute top-0 left-0 right-0 w-full hidden sm:block lg:hidden'>
+                    <TabGrid />
+                </div>
+                <div className="max-w-[1550px] mx-auto pt-56 lg:pt-0">
+                    <div className='w-full flex flex-col items-center justify-center lg:items-start lg:ml-10 xl:ml-24 px-4 lg:px-0 py-8 md:py-20 lg:py-32'>
                         <div className='text-left'>
                             <h1 className={`text-[#8980F580] text-[50px] lg:text-[70px] ${boldFont.className}`}><TypewriterMemoized
-                                words={['Build it', 'Build it']}
+                                words={['Build it', 'Experience it', 'Land it']}
                                 loop={0}
                                 cursor
                                 typeSpeed={70}
@@ -56,13 +64,13 @@ const LoginPage = () => {
                     </div>
 
                     <div className='hidden lg:block w-full absolute top-0 right-0 max-w-[750px]'>
-                        <LoginSignupGrid />
+                        <LaptopGrid />
                     </div>
                 </div>
             </div>
 
             <MainFooter />
-        </>
+        </div>
     )
 }
 
