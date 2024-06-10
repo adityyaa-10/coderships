@@ -9,7 +9,7 @@ import Navbar from "@/components/Navbar"
 
 const StudentsPage = () => {
     return (
-        <>
+        <div className="overflow-hidden">
             <Navbar />
             <StudentsHeader />
             <YourPassport />
@@ -18,7 +18,7 @@ const StudentsPage = () => {
             <Accordion />
             <SailWithCoderships />
             <MainFooter />
-        </>
+        </div>
     )
 }
 

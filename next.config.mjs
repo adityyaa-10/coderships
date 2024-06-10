@@ -1,18 +1,7 @@
-import MillionLint from "@million/lint";
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     images: {
         remotePatterns: [
-            {
-                protocol: "https",
-                hostname: "placehold.co",
-                port: "",
-            },
-            {
-                protocol: "https",
-                hostname: "www.alchemy.com",
-                port: "",
-            },
             {
                 protocol: "https",
                 hostname: "ik.imagekit.io",
@@ -23,6 +12,4 @@ const nextConfig = {
     },
 };
 
-export default MillionLint.next({
-    rsc: true,
-})(nextConfig);
+export default nextConfig;
