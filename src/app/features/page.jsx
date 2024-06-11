@@ -9,6 +9,7 @@ import Navbar from "@/components/Navbar"
 const FeaturesPage = () => {
     return (
         <>
+            <title>Coderships - Features</title>
             <Navbar />
             <Header />
             <FirstCard />

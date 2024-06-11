@@ -11,7 +11,7 @@ export default function RootLayout({ children }) {
   }, []);
   return (
     <html lang="en">
-
+      <title>Coderships</title>
       <body className={`overflow-x-hidden ${mediumFont.className}  `}>
         {children}
       </body>

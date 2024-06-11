@@ -8,6 +8,7 @@ import Navbar from "@/components/Navbar"
 const AboutPage = () => {
     return (
         <>
+            <title>Coderships - About</title>
             <Navbar />
             <Header />
             <GoalCards />

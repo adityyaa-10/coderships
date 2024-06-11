@@ -9,6 +9,7 @@ import Navbar from "@/components/Navbar"
 const MembershipPage = () => {
     return (
         <>
+            <title>Coderships - Membership</title>
             <Navbar />
             <Header />
             <Gateway />

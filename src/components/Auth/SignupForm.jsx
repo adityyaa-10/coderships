@@ -31,7 +31,7 @@ const SignupForm = () => {
     return (
         <div className='w-full flex flex-col items-center justify-start lg:items-start lg:ml-10 xl:ml-24 px-4 lg:px-0 py-8 md:py-20 lg:py-32'>
             <div className='text-left'>
-                <h1 className={`text-[#8980F580] text-[50px] lg:text-[70px] ${boldFont.className}`}>
+                <h1 className={`text-[#9D66FFCC] text-[50px] lg:text-[70px] ${boldFont.className}`}>
                     <TypewriterMemoized
                         words={['Build it', 'Experience it', 'Land it']}
                         loop={0}
@@ -45,8 +45,9 @@ const SignupForm = () => {
                     Are you a driven student seeking internship
                     project experience & a pathway to land your
                     dream tech internship?
-                    <br />
-                    <br />
+
+                </p>
+                <p className='text-[1rem] leading-[2rem] lg:text-[20px] lg:leading-[2.5rem] text-[#2D2323] max-w-[460px] pt-2'>
                     Currently, we are in private beta, and access
                     is limited to invite-only
                 </p>
@@ -64,7 +65,7 @@ const SignupForm = () => {
                                     id={`otp-${index}`}
                                     value={digit}
                                     onChange={(e) => handleChange(e, index)}
-                                    className="w-12 h-12 lg:w-14 lg:h-14 text-center border border-gray-300 sm:text-[20px]"
+                                    className="w-[40px] h-[40px] lg:w-[75px] lg:h-[75px] text-center border border-gray-300 sm:text-[20px]"
                                     maxLength={1}
                                     pattern="\d{1}"
                                     ref={el => inputRefs.current[index] = el}

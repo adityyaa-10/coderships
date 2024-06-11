@@ -9,7 +9,9 @@ import Navbar from "@/components/Navbar"
 
 const StudentsPage = () => {
     return (
+
         <div className="overflow-hidden">
+            <title>Coderships - For students</title>
             <Navbar />
             <StudentsHeader />
             <YourPassport />

@@ -9,6 +9,7 @@ const LoginPage = () => {
     return (
         <>
             <div className='overflow-hidden'>
+                <title>Welcome to coderships!</title>
                 <Navbar />
                 <div className='relative '>
                     <div className='absolute top-0 left-0 right-0 w-full sm:hidden'>
@@ -28,8 +29,6 @@ const LoginPage = () => {
 
                 <MainFooter />
             </div>
-
-            <MainFooter />
         </>
     )
 }

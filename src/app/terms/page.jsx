@@ -7,6 +7,7 @@ import OurService from "@/components/Terms/OurService"
 const TermsAndCondition = () => {
     return (
         <div className="bg-white">
+            <title>Coderships - Terms and Conditions</title>
             <Navbar />
             <Heading />
             <div className="max-w-[1000px] mx-auto px-4 md:px-9">

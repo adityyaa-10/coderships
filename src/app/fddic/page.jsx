@@ -12,6 +12,7 @@ import Navbar from "@/components/Navbar"
 const FDDICPage = () => {
     return (
         <>
+            <title>FDDIC'24</title>
             <Navbar />
             <Header />
             <Stats />
