@@ -18,15 +18,14 @@ const LoginPage = () => {
                     <div className='absolute top-0 left-0 right-0 w-full hidden sm:block lg:hidden'>
                         <TabGrid />
                     </div>
-                    <div className="max-w-[1550px] mx-auto pt-56 lg:pt-0">
+                    <div className="max-w-[1550px] mx-auto pt-56 lg:pt-0 relative">
                         <SignupForm />
 
-                        <div className='hidden lg:block w-full absolute top-0 right-0 max-w-[750px]'>
+                        <div className='hidden lg:flex w-full max-w-[750px] absolute top-0 right-0'>
                             <LaptopGrid />
                         </div>
                     </div>
                 </div>
-
                 <MainFooter />
             </div>
         </>

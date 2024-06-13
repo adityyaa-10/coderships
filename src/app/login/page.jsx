@@ -20,7 +20,7 @@ const LoginPage = () => {
                 <div className="max-w-[1550px] flex mx-auto pt-56 lg:pt-0 relative">
                     <LoginForm />
 
-                    <div className='hidden lg:flex w-full h-full  max-w-[750px] absolute top-0 right-0'>
+                    <div className='hidden lg:flex w-full max-w-[750px] absolute top-0 right-0'>
                         <LaptopGrid />
                     </div>
                 </div>

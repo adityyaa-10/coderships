@@ -6,7 +6,8 @@ import { Typewriter } from 'react-simple-typewriter';
 
 const SignupForm = () => {
     const TypewriterMemoized = React.memo(Typewriter);
-    const [otp, setOtp] = useState(["", "", "", "", ""]);
+    const [otp, setOtp] = useState(Array(5).fill(""));
+    const [loading, setLoading] = useState(false);
     const [error, setError] = useState("");
     const inputRefs = useRef([]);
 
@@ -17,13 +18,19 @@ const SignupForm = () => {
             newOtp[index] = value;
             setOtp(newOtp);
             setError(""); // Clear error on change
-            // Move focus to the next input
-            if (value && index < 4) {
+
+            // Move focus to the next input if the current input is not empty
+            if (value && index < otp.length - 1) {
                 inputRefs.current[index + 1].focus();
             }
-            // Check if the OTP is complete and display error
-            if (index === 4 && newOtp.every(digit => digit !== "")) {
-                setError("Oops! The invite code you entered doesn't seem to be correct. Please double - check and try again");
+
+            // Check if the OTP is complete
+            if (index === otp.length - 1 && newOtp.every(digit => digit !== "")) {
+                setLoading(true); // Set loading state to true
+                setTimeout(() => {
+                    setLoading(false); // Stop loading
+                    setError("Oops! The invite code you entered doesn't seem to be correct. Please double-check and try again");
+                }, 2000); // Simulate OTP verification delay
             }
         }
     };
@@ -42,14 +49,10 @@ const SignupForm = () => {
                     />
                 </h1>
                 <p className='text-[1rem] leading-[2rem] lg:text-[20px] lg:leading-[2.5rem] text-[#2D2323] max-w-[460px] pt-3 lg:pt-6'>
-                    Are you a driven student seeking internship
-                    project experience & a pathway to land your
-                    dream tech internship?
-
+                    Are you a driven student seeking internship project experience & a pathway to land your dream tech internship?
                 </p>
                 <p className='text-[1rem] leading-[2rem] lg:text-[20px] lg:leading-[2.5rem] text-[#2D2323] max-w-[460px] pt-2'>
-                    Currently, we are in private beta, and access
-                    is limited to invite-only
+                    Currently, we are in private beta, and access is limited to invite-only
                 </p>
             </div>
 
@@ -73,7 +76,8 @@ const SignupForm = () => {
                                 />
                             ))}
                         </div>
-                        {error && <p className="text-[1.125rem] leading-[1.8rem] lg:text-[19px] lg:leading-[2rem] text-[#FF5A5FCC] max-w-[460px] pt-3 lg:pt-6">{error}</p>}
+                        {loading && <p className="text-[1.125rem] leading-[1.8rem] lg:text-[19px] lg:leading-[2rem] text-[#4A90E2] max-w-[460px] pt-3 lg:pt-6">Verifying...</p>}
+                        {!loading && error && <p className="text-[1.125rem] leading-[1.8rem] lg:text-[19px] lg:leading-[2rem] text-[#FF5A5FCC] max-w-[460px] pt-3 lg:pt-6">{error}</p>}
                     </div>
                 </form>
                 <div className='text-[14px] lg:text-[18px] text-left mt-5'>
@@ -82,7 +86,6 @@ const SignupForm = () => {
                     </Link>
                 </div>
             </div>
-
         </div>
     );
 }
