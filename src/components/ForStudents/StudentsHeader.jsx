@@ -1,49 +1,61 @@
 "use client";
 import React from "react";
-import { Typewriter } from 'react-simple-typewriter'
-import Image from 'next/image'
-import nextjs from '@/assets/ForStudents/nextjs.svg'
-import code from '@/assets/ForStudents/code.svg'
+import { Typewriter } from "react-simple-typewriter";
+import Image from "next/image";
+import nextjs from "@/assets/ForStudents/nextjs.svg";
+import code from "@/assets/ForStudents/code.svg";
 
 const StudentsHeader = () => {
-    const TypewriterMemoized = React.memo(Typewriter);
-    return (
-        <header className="bg-[#1B1B1B] text-white pb-24 relative">
-            <div>
-                <div className="absolute border border-t-0 w-[70px] h-[35px] lg:w-[100px] lg:h-[50px]  border-[#D7D7D750] left-[80px] lg:left-[200px]" />
-                <div className="absolute top-[35px] lg:top-[50px] w-[80px] h-[80px] lg:w-[200px] lg:h-[200px] bg-[#4A4A4A80]" />
-                <div className="absolute top-0 right-[115px] lg:right-[200px] w-[60px] h-[60px] lg:w-[100px] lg:h-[100px] bg-[#d9d9d925] flex justify-center" >
-                    <Image src={nextjs} alt="" className="p-2" />
-                </div>
-                <div className="w-[115px] h-[60px] lg:w-[200px] lg:h-[100px] bg-[#d9d9d925] flex justify-center absolute top-[60px] lg:top-[100px] right-0" >
-                    <Image src={code} alt="" className="p-2" />
-                </div>
-            </div>
-            <div className="items-center justify-center pt-[180px] lg:pt-[250px] flex flex-col w-full">
-                <h1 data-aos="fade-right" data-aos-duration="1500" className={`text-[2.5rem] lg:text-[3rem] font-semibold text-start text-white px-4 md:px-6 lg:px-0`} >
-                    <span className='font-medium'>Compete in coderships to get</span> <br />
-                </h1>
-                <h2 className={`text-[2.5rem] lg:text-[3rem] font-semibold text-start text-white px-4 md:px-6 lg:px-0`}>
-                    <TypewriterMemoized
-                        words={['dream internship offers', 'referral in dream companies']}
-                        loop={0}
-                        cursor
-                        typeSpeed={70}
-                        deleteSpeed={50}
-                        delaySpeed={1000}
-                    />
-                </h2>
-                <p data-aos="fade-left" data-aos-duration="1500" className='text-[1.3rem] leading-[2.2rem] md:text-[1.5rem] text-left md:text-center md:leading-[2.75rem] text-[#7A7A7A] md:pl-0 py-4 max-w-[720px] mx-auto px-4 lg:px-0'>
-                    Are you ready to take your coding skills to the next level & land your dream
-                    internship? Look no further than Coderships is the ultimate platform for
-                    students to upskill, compete, showcase & win dream internship offers.
-                </p>
-                <button className="w-[158px] h-[50px] mt-4 bg-[#6941c6] text-white rounded-[10px] mb-9">
-                    Get Started
-                </button>
-            </div>
-        </header>
-    )
-}
+  const TypewriterMemoized = React.memo(Typewriter);
+  return (
+    <header className="relative bg-[#1B1B1B] pb-24 text-white">
+      <div>
+        <div className="absolute left-[80px] h-[35px] w-[70px] border border-t-0 border-[#D7D7D750] lg:left-[200px] lg:h-[50px] lg:w-[100px]" />
+        <div className="absolute top-[35px] h-[80px] w-[80px] bg-[#4A4A4A80] lg:top-[50px] lg:h-[200px] lg:w-[200px]" />
+        <div className="absolute right-[115px] top-0 flex h-[60px] w-[60px] justify-center bg-[#d9d9d925] lg:right-[200px] lg:h-[100px] lg:w-[100px]">
+          <Image src={nextjs} alt="" className="p-2" />
+        </div>
+        <div className="absolute right-0 top-[60px] flex h-[60px] w-[115px] justify-center bg-[#d9d9d925] lg:top-[100px] lg:h-[100px] lg:w-[200px]">
+          <Image src={code} alt="" className="p-2" />
+        </div>
+      </div>
+      <div className="flex w-full flex-col items-center justify-center pt-[180px] lg:pt-[250px]">
+        <h1
+          data-aos="fade-right"
+          data-aos-duration="1500"
+          className={`px-4 text-start text-[2.5rem] font-semibold text-white md:px-6 lg:px-0 lg:text-[3rem]`}
+        >
+          <span className="font-medium">Compete in coderships to get</span>{" "}
+          <br />
+        </h1>
+        <h2
+          className={`px-4 text-start text-[2.5rem] font-semibold text-white md:px-6 lg:px-0 lg:text-[3rem]`}
+        >
+          <TypewriterMemoized
+            words={["dream internship offers", "referral in dream companies"]}
+            loop={0}
+            cursor
+            typeSpeed={70}
+            deleteSpeed={50}
+            delaySpeed={1000}
+          />
+        </h2>
+        <p
+          data-aos="fade-left"
+          data-aos-duration="1500"
+          className="mx-auto max-w-[720px] px-4 py-4 text-left text-[1.3rem] leading-[2.2rem] text-[#7A7A7A] md:pl-0 md:text-center md:text-[1.5rem] md:leading-[2.75rem] lg:px-0"
+        >
+          Are you ready to take your coding skills to the next level & land your
+          dream internship? Look no further than Coderships is the ultimate
+          platform for students to upskill, compete, showcase & win dream
+          internship offers.
+        </p>
+        <button className="mb-9 mt-4 h-[50px] w-[158px] rounded-[10px] bg-[#6941c6] text-white">
+          Get Started
+        </button>
+      </div>
+    </header>
+  );
+};
 
-export default StudentsHeader
+export default StudentsHeader;

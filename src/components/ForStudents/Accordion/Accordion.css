@@ -1,39 +1,38 @@
 details div {
-    background-color: white;
-    border-radius: 12px;
+  background-color: white;
+  border-radius: 12px;
 }
 
-details div>*+* {
-    margin-top: 1.5em;
+details div > * + * {
+  margin-top: 1.5em;
 }
 
-details+details {
-    margin-top: .5rem;
+details + details {
+  margin-top: 0.5rem;
 }
 
 summary {
-    list-style: none;
-    color: #1b1b1b;
+  list-style: none;
+  color: #1b1b1b;
 }
 
 summary::-webkit-details-marker {
-    display: none;
+  display: none;
 }
 
 summary {
-    padding: .75em;
-    background-color: white;
-    color: black;
-    cursor: pointer;
-    position: relative;
+  padding: 0.75em;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  position: relative;
 }
 
-
 details[open] summary {
-    background-color: #2667FF;
-    color: white !important;
+  background-color: #2667ff;
+  color: white !important;
 }
 
 details[open] summary span svg {
-    fill: white;
+  fill: white;
 }
