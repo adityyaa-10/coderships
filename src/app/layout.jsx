@@ -6,9 +6,12 @@ import "aos/dist/aos.css";
 import { mediumFont } from "@/utils/fonts";
 
 export default function RootLayout({ children }) {
+
+
   useEffect(() => {
     Aos.init();
   }, []);
+
   return (
     <html lang="en">
       <title>Coderships</title>

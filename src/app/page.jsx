@@ -1,3 +1,5 @@
+"use client";
+import { useEffect, useState } from "react";
 import MainFooter from "@/components/Footer";
 import BoxInfo from "@/components/Landing/BoxInfo";
 import Header from "@/components/Landing/Header";
@@ -9,19 +11,42 @@ import Testimonials from "@/components/Landing/Testimonials/Testimonials";
 import Navbar from "@/components/Navbar";
 
 const Home = () => {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const handleLoad = () => {
+      setLoading(false);
+    };
+
+    if (document.readyState === "complete") {
+      setLoading(false);
+    } else {
+      window.addEventListener("load", handleLoad);
+      return () => window.removeEventListener("load", handleLoad);
+    }
+  }, []);
+
   return (
     <div className="overflow-hidden">
       <Navbar />
-      <Header />
-      <div className="bg-white">
-        <MarqueeSlider />
-        <Para />
-        <BoxInfo />
-        <SecondPara />
-        <MatrixEffect />
-        <Testimonials />
-      </div>
-      <MainFooter />
+      {loading ? (
+        <div className="loader-container">
+          <div className="loader"></div>
+        </div>
+      ) : (
+        <>
+          <Header />
+          <div className="bg-white">
+            <MarqueeSlider />
+            <Para />
+            <BoxInfo />
+            <SecondPara />
+            <MatrixEffect />
+            <Testimonials />
+          </div>
+          <MainFooter />
+        </>
+      )}
     </div>
   );
 };
