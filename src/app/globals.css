@@ -28,7 +28,7 @@
   position: fixed;
   inset: 0;
   z-index: 999;
-  background-color: #1B1B1B;
+  background-color: #1b1b1b;
   display: grid;
   place-content: center;
 }
@@ -36,11 +36,11 @@
 .loader {
   width: 4rem;
   height: 4rem;
-  border: .4rem solid #9D66FFCC;
+  border: 0.4rem solid #9d66ffcc;
   border-left-color: transparent;
   border-right-color: transparent;
   border-radius: 50%;
-  animation: spinner .8s ease infinite alternate;
+  animation: spinner 0.8s ease infinite alternate;
 }
 
 @keyframes spinner {
@@ -51,9 +51,4 @@
   to {
     transform: rotate(1turn) scale(1.2);
   }
-}
-
-.loader-container.hidden {
-  opacity: 0;
-  visibility: hidden;
 }
