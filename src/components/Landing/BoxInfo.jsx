@@ -1,10 +1,8 @@
-import React from "react";
-
 const BoxInfo = () => {
   return (
     <div
       data-aos="fade-up"
-      data-aos-duration="1500"
+      data-aos-duration="700"
       className="mx-auto max-w-screen-lg"
     >
       {/* Top Block */}

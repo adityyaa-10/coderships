@@ -2,7 +2,7 @@ const HowToApply = () => {
   return (
     <div
       data-aos="fade-up"
-      data-aos-duration="1500"
+      data-aos-duration="700"
       className="mx-auto max-w-[720px] px-5 py-9 text-center md:py-16 lg:py-20"
     >
       <h5 className="text-[2rem] font-semibold text-[#2D2323D9]">

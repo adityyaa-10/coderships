@@ -3,7 +3,7 @@ const WhyCoderships = () => {
     <div className="flex w-full flex-col items-center bg-[#171717] text-white">
       <div
         data-aos="fade-up"
-        data-aos-duration="1500"
+        data-aos-duration="700"
         className="mx-auto max-w-[1100px] px-6"
       >
         <h3 className="pt-16 text-center text-[2rem] font-semibold">

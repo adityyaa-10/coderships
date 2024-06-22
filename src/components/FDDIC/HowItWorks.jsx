@@ -2,7 +2,7 @@ const HowItWorks = () => {
   return (
     <div
       data-aos="fade-up"
-      data-aos-duration="1500"
+      data-aos-duration="700"
       className="mx-auto max-w-[1200px] space-y-8 px-5 py-16 md:px-12"
     >
       <h3 className="text-center text-[2rem] font-semibold text-[#8980F5]">

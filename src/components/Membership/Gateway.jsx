@@ -4,7 +4,7 @@ const Gateway = () => {
   return (
     <div
       data-aos="fade-up"
-      data-aos-duration="1500"
+      data-aos-duration="700"
       className={`mx-auto flex max-w-[1250px] flex-col items-center justify-center px-4 py-20 md:flex-row md:px-8`}
     >
       <div className="w-full md:w-2/3">

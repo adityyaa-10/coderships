@@ -21,8 +21,6 @@ const StudentsHeader = () => {
       </div>
       <div className="flex w-full flex-col items-center justify-center pt-[180px] lg:pt-[250px]">
         <h1
-          data-aos="fade-right"
-          data-aos-duration="1500"
           className={`px-4 text-start text-[2.5rem] font-semibold text-white md:px-6 lg:px-0 lg:text-[3rem]`}
         >
           <span className="font-medium">Compete in coderships to get</span>{" "}
@@ -40,11 +38,7 @@ const StudentsHeader = () => {
             delaySpeed={1000}
           />
         </h2>
-        <p
-          data-aos="fade-left"
-          data-aos-duration="1500"
-          className="mx-auto max-w-[720px] px-4 py-4 text-left text-[1.3rem] leading-[2.2rem] text-[#7A7A7A] md:pl-0 md:text-center md:text-[1.5rem] md:leading-[2.75rem] lg:px-0"
-        >
+        <p className="mx-auto max-w-[720px] px-4 py-4 text-left text-[1.3rem] leading-[2.2rem] text-[#7A7A7A] md:pl-0 md:text-center md:text-[1.5rem] md:leading-[2.75rem] lg:px-0">
           Are you ready to take your coding skills to the next level & land your
           dream internship? Look no further than Coderships is the ultimate
           platform for students to upskill, compete, showcase & win dream

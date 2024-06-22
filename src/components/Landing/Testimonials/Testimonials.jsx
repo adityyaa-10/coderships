@@ -5,7 +5,7 @@ const Testimonials = () => {
   return (
     <div
       data-aos="fade-up"
-      data-aos-duration="2000"
+      data-aos-duration="700"
       className="space-y-4 pb-6 text-center text-black md:pb-24"
     >
       <h3

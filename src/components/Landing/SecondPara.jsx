@@ -6,7 +6,7 @@ const SecondPara = () => {
   return (
     <div
       data-aos="fade-up"
-      data-aos-duration="2500"
+      data-aos-duration="700"
       className="md:py-16` space-y-4 px-4 py-9 text-left text-black md:text-center lg:py-32"
     >
       <h3

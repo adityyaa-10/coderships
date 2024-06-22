@@ -5,7 +5,7 @@ const Prize = () => {
   return (
     <div
       data-aos="fade-up"
-      data-aos-duration="1500"
+      data-aos-duration="700"
       className="mx-auto max-w-[1250px] px-4 py-8 md:px-8 md:py-16"
     >
       <h3 className="text-center text-xl font-semibold leading-[2.5rem] text-[#2D2323E5] md:text-2xl lg:text-3xl lg:leading-[2.9rem]">

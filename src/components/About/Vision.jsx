@@ -2,7 +2,7 @@ const Vision = () => {
   return (
     <div
       data-aos="fade-up"
-      data-aos-duration="1500"
+      data-aos-duration="700"
       className="mx-auto flex max-w-[1200px] flex-col px-3 py-8 sm:flex-row md:px-12 lg:px-3 lg:py-14"
     >
       <div className="flex w-full flex-col justify-center sm:w-[26%]">

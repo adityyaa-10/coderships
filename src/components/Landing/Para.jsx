@@ -2,7 +2,7 @@ const Para = () => {
   return (
     <div
       data-aos="fade-up"
-      data-aos-duration="1500"
+      data-aos-duration="700"
       className="mx-auto flex max-w-[850px] items-center justify-center px-3 py-12 text-left text-[1.125rem] font-medium leading-[2.25rem] text-[#2D2323] md:px-12 lg:py-24 lg:text-center lg:text-[1.5rem] lg:leading-[3rem]"
     >
       <p>

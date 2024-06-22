@@ -20,11 +20,7 @@ const Header = () => {
             <div className="absolute right-0 top-[75px] h-[75px] w-[75px] border border-r-0 border-[#d7d7d783] lg:top-[100px] lg:h-[100px] lg:w-[250px]"></div>
           </div>
           <div className="mx-auto px-4 pb-16 pt-48 text-center lg:mx-0 lg:mb-72 lg:max-w-[550px] lg:py-0 lg:text-left">
-            <h2
-              data-aos="fade-right"
-              data-aos-duration="1500"
-              className="text-left text-3xl font-semibold leading-[3.125rem] md:text-[30px] md:leading-[3.25rem] lg:text-[36px] lg:leading-[3rem] xl:leading-[3.85rem]"
-            >
+            <h2 className="text-left text-3xl font-semibold leading-[3.125rem] md:text-[30px] md:leading-[3.25rem] lg:text-[36px] lg:leading-[3rem] xl:leading-[3.85rem]">
               Empowering the next generation of student coders to reach new
               heights through innovative{" "}
               <span className="text-[#8980F5]">Coderships</span>

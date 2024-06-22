@@ -4,7 +4,7 @@ const NoteForStudents = () => {
   return (
     <div
       data-aos="fade-up"
-      data-aos-duration="1500"
+      data-aos-duration="700"
       className="flex w-full flex-col items-center justify-center px-4 py-8 md:py-16"
     >
       <div>

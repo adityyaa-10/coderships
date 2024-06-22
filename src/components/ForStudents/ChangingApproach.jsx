@@ -2,7 +2,7 @@ const ChangingApproach = () => {
   return (
     <div
       data-aos="fade-up"
-      data-aos-duration="1500"
+      data-aos-duration="700"
       className="py-12 md:py-20 lg:pb-[100px] lg:pt-[110px]"
     >
       <h1 className="px-5 text-center text-[33px] font-semibold tracking-[0.015em] text-[#1b1b1b64] lg:text-[40px]">

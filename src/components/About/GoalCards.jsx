@@ -2,7 +2,7 @@ const GoalCards = () => {
   return (
     <div
       data-aos="fade-up"
-      data-aos-duration="1500"
+      data-aos-duration="700"
       className="mx-auto flex max-w-[1200px] flex-col px-[6px] py-6 md:px-[14px] lg:flex-row lg:py-14"
     >
       <div className="flex flex-col border pb-6 pl-3 pr-6 lg:px-10 lg:pb-10">

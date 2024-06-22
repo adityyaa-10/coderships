@@ -20,8 +20,6 @@ const Header = () => {
         <div className="absolute right-[70px] top-[70px] flex h-[70px] w-[100px] justify-center bg-[#d9d9d925] lg:right-[100px] lg:top-[100px] lg:h-[100px] lg:w-[200px]" />
       </div>
       <div
-        data-aos="zoom-in"
-        data-aos-duration="1500"
         className={`flex flex-col items-start justify-center space-y-8 px-[60px] pb-[100px] pt-[200px] lg:px-[270px] lg:pb-[150px] lg:pt-[270px]`}
       >
         <h1 className={`${semiBoldFont.className} text-[2.75rem] text-white`}>

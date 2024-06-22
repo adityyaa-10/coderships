@@ -8,7 +8,7 @@ const Accordion = () => {
         >
           <div
             data-aos="fade-right"
-            data-aos-duration="1500"
+            data-aos-duration="700"
             className="mb-8 min-h-[80px] rounded-xl bg-white px-4 py-4"
           >
             <details>
@@ -37,7 +37,7 @@ const Accordion = () => {
           </div>
           <div
             data-aos="fade-left"
-            data-aos-duration="1500"
+            data-aos-duration="700"
             className="mb-8 min-h-[80px] rounded-xl bg-white px-4 py-4"
           >
             <details>
@@ -68,7 +68,7 @@ const Accordion = () => {
           </div>
           <div
             data-aos="fade-right"
-            data-aos-duration="1500"
+            data-aos-duration="700"
             className="mb-8 min-h-[80px] rounded-xl bg-white px-4 py-4"
           >
             <details>
@@ -97,7 +97,7 @@ const Accordion = () => {
           </div>
           <div
             data-aos="fade-left"
-            data-aos-duration="1500"
+            data-aos-duration="700"
             className="mb-8 min-h-[80px] rounded-xl bg-white px-4 py-4"
           >
             <details>
@@ -127,7 +127,7 @@ const Accordion = () => {
           </div>
           <div
             data-aos="fade-right"
-            data-aos-duration="1500"
+            data-aos-duration="700"
             className="mb-8 min-h-[80px] rounded-xl bg-white px-4 py-4"
           >
             <details>

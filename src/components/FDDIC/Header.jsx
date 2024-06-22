@@ -15,18 +15,12 @@ export const Header = () => {
       </div>
       <div className="flex w-full flex-col items-center justify-center space-y-12 pt-40 lg:pt-[220px]">
         <h1
-          data-aos="fade-right"
-          data-aos-duration="1500"
           className={` ${semiBoldFont.className}} max-w-[720px] px-4 text-left text-[30px] font-bold leading-[3.2rem] tracking-wide md:text-center md:text-4xl md:leading-[4rem] lg:text-[3rem] lg:leading-[4.5rem]`}
         >
           Frontend Development{" "}
           <span className="text-[#8980F5]">Dream Internship</span> Challenge
         </h1>
-        <div
-          data-aos="fade-left"
-          data-aos-duration="2000"
-          className="lg:py12 mx-4 max-w-[600px] border-2 border-[#D7D7D750] px-6 py-8 text-center text-[1.4rem] leading-[2.75rem] text-[#FFFFFFE5] lg:text-[1.5rem]"
-        >
+        <div className="lg:py12 mx-4 max-w-[600px] border-2 border-[#D7D7D750] px-6 py-8 text-center text-[1.4rem] leading-[2.75rem] text-[#FFFFFFE5] lg:text-[1.5rem]">
           where your journey to landing your dream frontend development
           internship begins!
         </div>

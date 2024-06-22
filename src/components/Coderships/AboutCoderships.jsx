@@ -2,7 +2,7 @@ const AboutCoderships = () => {
   return (
     <div
       data-aos="fade-up"
-      data-aos-duration="1500"
+      data-aos-duration="700"
       className="mx-auto flex max-w-[760px] items-center justify-center px-2 py-6 text-[1rem] font-medium leading-[2rem] text-[#544D49] lg:py-24 lg:text-[1.25rem] lg:leading-[2.7rem]"
     >
       <p>

@@ -27,7 +27,7 @@ const ThirdCard = () => {
           <div className="absolute inset-0 flex items-center justify-center p-4 md:p-16">
             <Image
               data-aos="zoom-in"
-              data-aos-duration="1500"
+              data-aos-duration="700"
               src={"/thirdcard.svg"}
               fill
               className="p-8 md:p-24"

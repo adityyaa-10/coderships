@@ -1,4 +1,3 @@
-"use client";
 import Image from "next/image";
 import underlineEffect from "@/assets/Header/vector.svg";
 import { semiBoldFont } from "@/utils/fonts";
@@ -51,8 +50,6 @@ const Header = () => {
             Land your dream internship
           </div>
           <h1
-            data-aos="fade-right"
-            data-aos-duration="1500"
             className={`text-[2.3rem] leading-[3.5rem] md:text-[3.1rem] md:leading-[4.75rem] ${semiBoldFont.className} max-w-[800px] text-left text-white md:text-center`}
           >
             Reimagining the way students land{" "}
@@ -70,8 +67,6 @@ const Header = () => {
             internships in tech
           </h1>
           <p
-            data-aos="fade-left"
-            data-aos-duration="1500"
             className={`font-medium-sans mx-auto max-w-[760px] py-2 text-left text-[1.3rem] leading-[2.2rem] text-[#7A7A7A] md:pl-0 md:text-center md:text-[1.5rem] md:leading-[2.75rem] lg:py-4`}
           >
             Ever felt your skills didn’t get the spotlight they deserved? Let

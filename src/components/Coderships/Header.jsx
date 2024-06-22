@@ -18,20 +18,12 @@ export const Header = () => {
         </div>
       </div>
       <div className="flex w-full flex-col items-center justify-center space-y-12 pt-40 lg:pt-[220px]">
-        <h1
-          data-aos="fade-right"
-          data-aos-duration="1500"
-          className="max-w-[625px] px-4 text-center text-[1.5rem] font-bold leading-[3rem] md:text-4xl md:leading-[4rem]"
-        >
+        <h1 className="max-w-[625px] px-4 text-center text-[1.5rem] font-bold leading-[3rem] md:text-4xl md:leading-[4rem]">
           Unlock your potential,{" "}
           <span className="text-[#8980F5]">#ProveYourskills</span> with
           Coderships
         </h1>
-        <div
-          data-aos="fade-left"
-          data-aos-duration="2000"
-          className="mx-4 max-w-[650px] border-2 border-[#D7D7D750] px-6 py-8 text-center text-[1.5rem] text-[#FFFFFFE5] lg:px-8 lg:py-12"
-        >
+        <div className="mx-4 max-w-[650px] border-2 border-[#D7D7D750] px-6 py-8 text-center text-[1.5rem] text-[#FFFFFFE5] lg:px-8 lg:py-12">
           Coderships are here to revolutionize the way coding skills are
           showcased and dream internships are secured
         </div>
