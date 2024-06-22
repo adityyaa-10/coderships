@@ -31,17 +31,17 @@ const Landing = () => {
                 <path
                   d="M11.5004 27.0007C11.5004 21.2048 16.2959 16.5063 22.2114 16.5063"
                   stroke="#15535e"
-                  stroke-width="2.76923"
+                  strokeWidth="2.76923"
                 ></path>
                 <path
                   d="M0.787555 16.5056C6.70307 16.5056 11.4985 21.2041 11.4985 27"
                   stroke="#15535e"
-                  stroke-width="2.76923"
+                  strokeWidth="2.76923"
                 ></path>
                 <path
                   d="M11.4985 24.8755L11.4985 0"
                   stroke="#15535e"
-                  stroke-width="2.76923"
+                  strokeWidth="2.76923"
                 ></path>
               </svg>
             </span>
@@ -55,13 +55,13 @@ const Landing = () => {
             <div className="absolute inset-0 h-full w-full overflow-hidden rounded-r-[13px] md:rounded-b-[30px] md:rounded-t-[0]">
               <img
                 alt=""
-                fetchpriority="high"
+                fetchPriority="high"
                 decoding="async"
                 data-nimg="fill"
                 className="absolute inset-0 size-full object-cover object-center text-transparent"
                 style={{ objectPosition: "62.1076% 53.5283%" }}
                 sizes="25vw"
-                srcset="https://cdn.sanity.io/images/uozoklvj/production/058eb049746eec9441fbf177179485fc1eb5de12-666x1184.png?w=256&amp;fit=max&amp;auto=format 256w, https://cdn.sanity.io/images/uozoklvj/production/058eb049746eec9441fbf177179485fc1eb5de12-666x1184.png?w=384&amp;fit=max&amp;auto=format 384w, https://cdn.sanity.io/images/uozoklvj/production/058eb049746eec9441fbf177179485fc1eb5de12-666x1184.png?w=640&amp;fit=max&amp;auto=format 640w, https://cdn.sanity.io/images/uozoklvj/production/058eb049746eec9441fbf177179485fc1eb5de12-666x1184.png?w=750&amp;fit=max&amp;auto=format 750w, https://cdn.sanity.io/images/uozoklvj/production/058eb049746eec9441fbf177179485fc1eb5de12-666x1184.png?w=828&amp;fit=max&amp;auto=format 828w, https://cdn.sanity.io/images/uozoklvj/production/058eb049746eec9441fbf177179485fc1eb5de12-666x1184.png?w=1080&amp;fit=max&amp;auto=format 1080w, https://cdn.sanity.io/images/uozoklvj/production/058eb049746eec9441fbf177179485fc1eb5de12-666x1184.png?w=1200&amp;fit=max&amp;auto=format 1200w, https://cdn.sanity.io/images/uozoklvj/production/058eb049746eec9441fbf177179485fc1eb5de12-666x1184.png?w=1920&amp;fit=max&amp;auto=format 1920w, https://cdn.sanity.io/images/uozoklvj/production/058eb049746eec9441fbf177179485fc1eb5de12-666x1184.png?w=2048&amp;fit=max&amp;auto=format 2048w, https://cdn.sanity.io/images/uozoklvj/production/058eb049746eec9441fbf177179485fc1eb5de12-666x1184.png?w=3840&amp;fit=max&amp;auto=format 3840w"
+                srcSet="https://cdn.sanity.io/images/uozoklvj/production/058eb049746eec9441fbf177179485fc1eb5de12-666x1184.png?w=256&amp;fit=max&amp;auto=format 256w, https://cdn.sanity.io/images/uozoklvj/production/058eb049746eec9441fbf177179485fc1eb5de12-666x1184.png?w=384&amp;fit=max&amp;auto=format 384w, https://cdn.sanity.io/images/uozoklvj/production/058eb049746eec9441fbf177179485fc1eb5de12-666x1184.png?w=640&amp;fit=max&amp;auto=format 640w, https://cdn.sanity.io/images/uozoklvj/production/058eb049746eec9441fbf177179485fc1eb5de12-666x1184.png?w=750&amp;fit=max&amp;auto=format 750w, https://cdn.sanity.io/images/uozoklvj/production/058eb049746eec9441fbf177179485fc1eb5de12-666x1184.png?w=828&amp;fit=max&amp;auto=format 828w, https://cdn.sanity.io/images/uozoklvj/production/058eb049746eec9441fbf177179485fc1eb5de12-666x1184.png?w=1080&amp;fit=max&amp;auto=format 1080w, https://cdn.sanity.io/images/uozoklvj/production/058eb049746eec9441fbf177179485fc1eb5de12-666x1184.png?w=1200&amp;fit=max&amp;auto=format 1200w, https://cdn.sanity.io/images/uozoklvj/production/058eb049746eec9441fbf177179485fc1eb5de12-666x1184.png?w=1920&amp;fit=max&amp;auto=format 1920w, https://cdn.sanity.io/images/uozoklvj/production/058eb049746eec9441fbf177179485fc1eb5de12-666x1184.png?w=2048&amp;fit=max&amp;auto=format 2048w, https://cdn.sanity.io/images/uozoklvj/production/058eb049746eec9441fbf177179485fc1eb5de12-666x1184.png?w=3840&amp;fit=max&amp;auto=format 3840w"
                 src="https://cdn.sanity.io/images/uozoklvj/production/058eb049746eec9441fbf177179485fc1eb5de12-666x1184.png?w=3840&amp;fit=max&amp;auto=format"
               />
             </div>
@@ -70,13 +70,13 @@ const Landing = () => {
             <div className="absolute inset-0 h-full w-full overflow-hidden rounded-b-[13px] md:rounded-b-[30px]">
               <img
                 alt=""
-                fetchpriority="high"
+                fetchPriority="high"
                 decoding="async"
                 data-nimg="fill"
                 className="absolute inset-0 size-full object-cover object-center text-transparent"
                 style={{ objectPosition: "48.6547% 38.9112%" }}
                 sizes="25vw"
-                srcset="https://cdn.sanity.io/images/uozoklvj/production/908c5efde8bd08e4828dd2d1f97a32498a2aeefe-666x666.png?w=256&amp;fit=max&amp;auto=format 256w, https://cdn.sanity.io/images/uozoklvj/production/908c5efde8bd08e4828dd2d1f97a32498a2aeefe-666x666.png?w=384&amp;fit=max&amp;auto=format 384w, https://cdn.sanity.io/images/uozoklvj/production/908c5efde8bd08e4828dd2d1f97a32498a2aeefe-666x666.png?w=640&amp;fit=max&amp;auto=format 640w, https://cdn.sanity.io/images/uozoklvj/production/908c5efde8bd08e4828dd2d1f97a32498a2aeefe-666x666.png?w=750&amp;fit=max&amp;auto=format 750w, https://cdn.sanity.io/images/uozoklvj/production/908c5efde8bd08e4828dd2d1f97a32498a2aeefe-666x666.png?w=828&amp;fit=max&amp;auto=format 828w, https://cdn.sanity.io/images/uozoklvj/production/908c5efde8bd08e4828dd2d1f97a32498a2aeefe-666x666.png?w=1080&amp;fit=max&amp;auto=format 1080w, https://cdn.sanity.io/images/uozoklvj/production/908c5efde8bd08e4828dd2d1f97a32498a2aeefe-666x666.png?w=1200&amp;fit=max&amp;auto=format 1200w, https://cdn.sanity.io/images/uozoklvj/production/908c5efde8bd08e4828dd2d1f97a32498a2aeefe-666x666.png?w=1920&amp;fit=max&amp;auto=format 1920w, https://cdn.sanity.io/images/uozoklvj/production/908c5efde8bd08e4828dd2d1f97a32498a2aeefe-666x666.png?w=2048&amp;fit=max&amp;auto=format 2048w, https://cdn.sanity.io/images/uozoklvj/production/908c5efde8bd08e4828dd2d1f97a32498a2aeefe-666x666.png?w=3840&amp;fit=max&amp;auto=format 3840w"
+                srcSet="https://cdn.sanity.io/images/uozoklvj/production/908c5efde8bd08e4828dd2d1f97a32498a2aeefe-666x666.png?w=256&amp;fit=max&amp;auto=format 256w, https://cdn.sanity.io/images/uozoklvj/production/908c5efde8bd08e4828dd2d1f97a32498a2aeefe-666x666.png?w=384&amp;fit=max&amp;auto=format 384w, https://cdn.sanity.io/images/uozoklvj/production/908c5efde8bd08e4828dd2d1f97a32498a2aeefe-666x666.png?w=640&amp;fit=max&amp;auto=format 640w, https://cdn.sanity.io/images/uozoklvj/production/908c5efde8bd08e4828dd2d1f97a32498a2aeefe-666x666.png?w=750&amp;fit=max&amp;auto=format 750w, https://cdn.sanity.io/images/uozoklvj/production/908c5efde8bd08e4828dd2d1f97a32498a2aeefe-666x666.png?w=828&amp;fit=max&amp;auto=format 828w, https://cdn.sanity.io/images/uozoklvj/production/908c5efde8bd08e4828dd2d1f97a32498a2aeefe-666x666.png?w=1080&amp;fit=max&amp;auto=format 1080w, https://cdn.sanity.io/images/uozoklvj/production/908c5efde8bd08e4828dd2d1f97a32498a2aeefe-666x666.png?w=1200&amp;fit=max&amp;auto=format 1200w, https://cdn.sanity.io/images/uozoklvj/production/908c5efde8bd08e4828dd2d1f97a32498a2aeefe-666x666.png?w=1920&amp;fit=max&amp;auto=format 1920w, https://cdn.sanity.io/images/uozoklvj/production/908c5efde8bd08e4828dd2d1f97a32498a2aeefe-666x666.png?w=2048&amp;fit=max&amp;auto=format 2048w, https://cdn.sanity.io/images/uozoklvj/production/908c5efde8bd08e4828dd2d1f97a32498a2aeefe-666x666.png?w=3840&amp;fit=max&amp;auto=format 3840w"
                 src="https://cdn.sanity.io/images/uozoklvj/production/908c5efde8bd08e4828dd2d1f97a32498a2aeefe-666x666.png?w=3840&amp;fit=max&amp;auto=format"
               />
             </div>
@@ -85,13 +85,13 @@ const Landing = () => {
             <div className="absolute inset-0 h-full w-full overflow-hidden rounded-l-[13px] md:rounded-b-[30px] md:rounded-t-[0]">
               <img
                 alt=""
-                fetchpriority="high"
+                fetchPriority="high"
                 decoding="async"
                 data-nimg="fill"
                 className="absolute inset-0 size-full object-cover text-transparent"
                 style={{ objectPosition: "48.6547% 38.9112%" }}
                 sizes="25vw"
-                srcset="https://cdn.sanity.io/images/uozoklvj/production/2ef746a889cf0869fbce78baab31f709083fb31c-333x1184.png?w=256&amp;fit=max&amp;auto=format 256w, https://cdn.sanity.io/images/uozoklvj/production/2ef746a889cf0869fbce78baab31f709083fb31c-333x1184.png?w=384&amp;fit=max&amp;auto=format 384w, https://cdn.sanity.io/images/uozoklvj/production/2ef746a889cf0869fbce78baab31f709083fb31c-333x1184.png?w=640&amp;fit=max&amp;auto=format 640w, https://cdn.sanity.io/images/uozoklvj/production/2ef746a889cf0869fbce78baab31f709083fb31c-333x1184.png?w=750&amp;fit=max&amp;auto=format 750w, https://cdn.sanity.io/images/uozoklvj/production/2ef746a889cf0869fbce78baab31f709083fb31c-333x1184.png?w=828&amp;fit=max&amp;auto=format 828w, https://cdn.sanity.io/images/uozoklvj/production/2ef746a889cf0869fbce78baab31f709083fb31c-333x1184.png?w=1080&amp;fit=max&amp;auto=format 1080w, https://cdn.sanity.io/images/uozoklvj/production/2ef746a889cf0869fbce78baab31f709083fb31c-333x1184.png?w=1200&amp;fit=max&amp;auto=format 1200w, https://cdn.sanity.io/images/uozoklvj/production/2ef746a889cf0869fbce78baab31f709083fb31c-333x1184.png?w=1920&amp;fit=max&amp;auto=format 1920w, https://cdn.sanity.io/images/uozoklvj/production/2ef746a889cf0869fbce78baab31f709083fb31c-333x1184.png?w=2048&amp;fit=max&amp;auto=format 2048w, https://cdn.sanity.io/images/uozoklvj/production/2ef746a889cf0869fbce78baab31f709083fb31c-333x1184.png?w=3840&amp;fit=max&amp;auto=format 3840w"
+                srcSet="https://cdn.sanity.io/images/uozoklvj/production/2ef746a889cf0869fbce78baab31f709083fb31c-333x1184.png?w=256&amp;fit=max&amp;auto=format 256w, https://cdn.sanity.io/images/uozoklvj/production/2ef746a889cf0869fbce78baab31f709083fb31c-333x1184.png?w=384&amp;fit=max&amp;auto=format 384w, https://cdn.sanity.io/images/uozoklvj/production/2ef746a889cf0869fbce78baab31f709083fb31c-333x1184.png?w=640&amp;fit=max&amp;auto=format 640w, https://cdn.sanity.io/images/uozoklvj/production/2ef746a889cf0869fbce78baab31f709083fb31c-333x1184.png?w=750&amp;fit=max&amp;auto=format 750w, https://cdn.sanity.io/images/uozoklvj/production/2ef746a889cf0869fbce78baab31f709083fb31c-333x1184.png?w=828&amp;fit=max&amp;auto=format 828w, https://cdn.sanity.io/images/uozoklvj/production/2ef746a889cf0869fbce78baab31f709083fb31c-333x1184.png?w=1080&amp;fit=max&amp;auto=format 1080w, https://cdn.sanity.io/images/uozoklvj/production/2ef746a889cf0869fbce78baab31f709083fb31c-333x1184.png?w=1200&amp;fit=max&amp;auto=format 1200w, https://cdn.sanity.io/images/uozoklvj/production/2ef746a889cf0869fbce78baab31f709083fb31c-333x1184.png?w=1920&amp;fit=max&amp;auto=format 1920w, https://cdn.sanity.io/images/uozoklvj/production/2ef746a889cf0869fbce78baab31f709083fb31c-333x1184.png?w=2048&amp;fit=max&amp;auto=format 2048w, https://cdn.sanity.io/images/uozoklvj/production/2ef746a889cf0869fbce78baab31f709083fb31c-333x1184.png?w=3840&amp;fit=max&amp;auto=format 3840w"
                 src="https://cdn.sanity.io/images/uozoklvj/production/2ef746a889cf0869fbce78baab31f709083fb31c-333x1184.png?w=3840&amp;fit=max&amp;auto=format"
               />
             </div>
@@ -100,13 +100,13 @@ const Landing = () => {
             <div className="absolute inset-0 h-full w-full overflow-hidden rounded-r-[13px] md:rounded-[30px]">
               <img
                 alt=""
-                fetchpriority="high"
+                fetchPriority="high"
                 decoding="async"
                 data-nimg="fill"
                 className="absolute inset-0 size-full object-cover text-transparent"
                 style={{ objectPosition: "48.6547% 38.9112%" }}
                 sizes="25vw"
-                srcset="https://cdn.sanity.io/images/uozoklvj/production/68894fb65f0c5fd13bc8b4a55b9fe0afb91df941-666x1184.png?w=256&amp;fit=max&amp;auto=format 256w, https://cdn.sanity.io/images/uozoklvj/production/68894fb65f0c5fd13bc8b4a55b9fe0afb91df941-666x1184.png?w=384&amp;fit=max&amp;auto=format 384w, https://cdn.sanity.io/images/uozoklvj/production/68894fb65f0c5fd13bc8b4a55b9fe0afb91df941-666x1184.png?w=640&amp;fit=max&amp;auto=format 640w, https://cdn.sanity.io/images/uozoklvj/production/68894fb65f0c5fd13bc8b4a55b9fe0afb91df941-666x1184.png?w=750&amp;fit=max&amp;auto=format 750w, https://cdn.sanity.io/images/uozoklvj/production/68894fb65f0c5fd13bc8b4a55b9fe0afb91df941-666x1184.png?w=828&amp;fit=max&amp;auto=format 828w, https://cdn.sanity.io/images/uozoklvj/production/68894fb65f0c5fd13bc8b4a55b9fe0afb91df941-666x1184.png?w=1080&amp;fit=max&amp;auto=format 1080w, https://cdn.sanity.io/images/uozoklvj/production/68894fb65f0c5fd13bc8b4a55b9fe0afb91df941-666x1184.png?w=1200&amp;fit=max&amp;auto=format 1200w, https://cdn.sanity.io/images/uozoklvj/production/68894fb65f0c5fd13bc8b4a55b9fe0afb91df941-666x1184.png?w=1920&amp;fit=max&amp;auto=format 1920w, https://cdn.sanity.io/images/uozoklvj/production/68894fb65f0c5fd13bc8b4a55b9fe0afb91df941-666x1184.png?w=2048&amp;fit=max&amp;auto=format 2048w, https://cdn.sanity.io/images/uozoklvj/production/68894fb65f0c5fd13bc8b4a55b9fe0afb91df941-666x1184.png?w=3840&amp;fit=max&amp;auto=format 3840w"
+                srcSet="https://cdn.sanity.io/images/uozoklvj/production/68894fb65f0c5fd13bc8b4a55b9fe0afb91df941-666x1184.png?w=256&amp;fit=max&amp;auto=format 256w, https://cdn.sanity.io/images/uozoklvj/production/68894fb65f0c5fd13bc8b4a55b9fe0afb91df941-666x1184.png?w=384&amp;fit=max&amp;auto=format 384w, https://cdn.sanity.io/images/uozoklvj/production/68894fb65f0c5fd13bc8b4a55b9fe0afb91df941-666x1184.png?w=640&amp;fit=max&amp;auto=format 640w, https://cdn.sanity.io/images/uozoklvj/production/68894fb65f0c5fd13bc8b4a55b9fe0afb91df941-666x1184.png?w=750&amp;fit=max&amp;auto=format 750w, https://cdn.sanity.io/images/uozoklvj/production/68894fb65f0c5fd13bc8b4a55b9fe0afb91df941-666x1184.png?w=828&amp;fit=max&amp;auto=format 828w, https://cdn.sanity.io/images/uozoklvj/production/68894fb65f0c5fd13bc8b4a55b9fe0afb91df941-666x1184.png?w=1080&amp;fit=max&amp;auto=format 1080w, https://cdn.sanity.io/images/uozoklvj/production/68894fb65f0c5fd13bc8b4a55b9fe0afb91df941-666x1184.png?w=1200&amp;fit=max&amp;auto=format 1200w, https://cdn.sanity.io/images/uozoklvj/production/68894fb65f0c5fd13bc8b4a55b9fe0afb91df941-666x1184.png?w=1920&amp;fit=max&amp;auto=format 1920w, https://cdn.sanity.io/images/uozoklvj/production/68894fb65f0c5fd13bc8b4a55b9fe0afb91df941-666x1184.png?w=2048&amp;fit=max&amp;auto=format 2048w, https://cdn.sanity.io/images/uozoklvj/production/68894fb65f0c5fd13bc8b4a55b9fe0afb91df941-666x1184.png?w=3840&amp;fit=max&amp;auto=format 3840w"
                 src="https://cdn.sanity.io/images/uozoklvj/production/68894fb65f0c5fd13bc8b4a55b9fe0afb91df941-666x1184.png?w=3840&amp;fit=max&amp;auto=format"
               />
             </div>
@@ -130,12 +130,12 @@ const Landing = () => {
             <div className="absolute inset-0 size-full overflow-hidden rounded-[13px] md:rounded-[30px]">
               <img
                 alt=""
-                fetchpriority="high"
+                fetchPriority="high"
                 decoding="async"
                 data-nimg="fill"
                 className="absolute inset-0 size-full object-cover object-center text-transparent"
                 sizes="25vw"
-                srcset="https://cdn.sanity.io/images/uozoklvj/production/b9af6d92a3c58a74bb6a372a6192a78a6c3bfe7d-666x333.png?w=256&amp;fit=max&amp;auto=format 256w, https://cdn.sanity.io/images/uozoklvj/production/b9af6d92a3c58a74bb6a372a6192a78a6c3bfe7d-666x333.png?w=384&amp;fit=max&amp;auto=format 384w, https://cdn.sanity.io/images/uozoklvj/production/b9af6d92a3c58a74bb6a372a6192a78a6c3bfe7d-666x333.png?w=640&amp;fit=max&amp;auto=format 640w, https://cdn.sanity.io/images/uozoklvj/production/b9af6d92a3c58a74bb6a372a6192a78a6c3bfe7d-666x333.png?w=750&amp;fit=max&amp;auto=format 750w, https://cdn.sanity.io/images/uozoklvj/production/b9af6d92a3c58a74bb6a372a6192a78a6c3bfe7d-666x333.png?w=828&amp;fit=max&amp;auto=format 828w, https://cdn.sanity.io/images/uozoklvj/production/b9af6d92a3c58a74bb6a372a6192a78a6c3bfe7d-666x333.png?w=1080&amp;fit=max&amp;auto=format 1080w, https://cdn.sanity.io/images/uozoklvj/production/b9af6d92a3c58a74bb6a372a6192a78a6c3bfe7d-666x333.png?w=1200&amp;fit=max&amp;auto=format 1200w, https://cdn.sanity.io/images/uozoklvj/production/b9af6d92a3c58a74bb6a372a6192a78a6c3bfe7d-666x333.png?w=1920&amp;fit=max&amp;auto=format 1920w, https://cdn.sanity.io/images/uozoklvj/production/b9af6d92a3c58a74bb6a372a6192a78a6c3bfe7d-666x333.png?w=2048&amp;fit=max&amp;auto=format 2048w, https://cdn.sanity.io/images/uozoklvj/production/b9af6d92a3c58a74bb6a372a6192a78a6c3bfe7d-666x333.png?w=3840&amp;fit=max&amp;auto=format 3840w"
+                srcSet="https://cdn.sanity.io/images/uozoklvj/production/b9af6d92a3c58a74bb6a372a6192a78a6c3bfe7d-666x333.png?w=256&amp;fit=max&amp;auto=format 256w, https://cdn.sanity.io/images/uozoklvj/production/b9af6d92a3c58a74bb6a372a6192a78a6c3bfe7d-666x333.png?w=384&amp;fit=max&amp;auto=format 384w, https://cdn.sanity.io/images/uozoklvj/production/b9af6d92a3c58a74bb6a372a6192a78a6c3bfe7d-666x333.png?w=640&amp;fit=max&amp;auto=format 640w, https://cdn.sanity.io/images/uozoklvj/production/b9af6d92a3c58a74bb6a372a6192a78a6c3bfe7d-666x333.png?w=750&amp;fit=max&amp;auto=format 750w, https://cdn.sanity.io/images/uozoklvj/production/b9af6d92a3c58a74bb6a372a6192a78a6c3bfe7d-666x333.png?w=828&amp;fit=max&amp;auto=format 828w, https://cdn.sanity.io/images/uozoklvj/production/b9af6d92a3c58a74bb6a372a6192a78a6c3bfe7d-666x333.png?w=1080&amp;fit=max&amp;auto=format 1080w, https://cdn.sanity.io/images/uozoklvj/production/b9af6d92a3c58a74bb6a372a6192a78a6c3bfe7d-666x333.png?w=1200&amp;fit=max&amp;auto=format 1200w, https://cdn.sanity.io/images/uozoklvj/production/b9af6d92a3c58a74bb6a372a6192a78a6c3bfe7d-666x333.png?w=1920&amp;fit=max&amp;auto=format 1920w, https://cdn.sanity.io/images/uozoklvj/production/b9af6d92a3c58a74bb6a372a6192a78a6c3bfe7d-666x333.png?w=2048&amp;fit=max&amp;auto=format 2048w, https://cdn.sanity.io/images/uozoklvj/production/b9af6d92a3c58a74bb6a372a6192a78a6c3bfe7d-666x333.png?w=3840&amp;fit=max&amp;auto=format 3840w"
                 src="https://cdn.sanity.io/images/uozoklvj/production/b9af6d92a3c58a74bb6a372a6192a78a6c3bfe7d-666x333.png?w=3840&amp;fit=max&amp;auto=format"
               />
             </div>
@@ -144,12 +144,12 @@ const Landing = () => {
             <div className="absolute inset-0 size-full overflow-hidden rounded-l-[13px] md:rounded-[30px]">
               <img
                 alt=""
-                fetchpriority="high"
+                fetchPriority="high"
                 decoding="async"
                 data-nimg="fill"
                 className="absolute inset-0 size-full object-cover object-center text-transparent"
                 sizes="25vw"
-                srcset="https://cdn.sanity.io/images/uozoklvj/production/5303fe8347e528c149e95fe23c2fa88cda097dd4-666x1184.png?w=256&amp;fit=max&amp;auto=format 256w, https://cdn.sanity.io/images/uozoklvj/production/5303fe8347e528c149e95fe23c2fa88cda097dd4-666x1184.png?w=384&amp;fit=max&amp;auto=format 384w, https://cdn.sanity.io/images/uozoklvj/production/5303fe8347e528c149e95fe23c2fa88cda097dd4-666x1184.png?w=640&amp;fit=max&amp;auto=format 640w, https://cdn.sanity.io/images/uozoklvj/production/5303fe8347e528c149e95fe23c2fa88cda097dd4-666x1184.png?w=750&amp;fit=max&amp;auto=format 750w, https://cdn.sanity.io/images/uozoklvj/production/5303fe8347e528c149e95fe23c2fa88cda097dd4-666x1184.png?w=828&amp;fit=max&amp;auto=format 828w, https://cdn.sanity.io/images/uozoklvj/production/5303fe8347e528c149e95fe23c2fa88cda097dd4-666x1184.png?w=1080&amp;fit=max&amp;auto=format 1080w, https://cdn.sanity.io/images/uozoklvj/production/5303fe8347e528c149e95fe23c2fa88cda097dd4-666x1184.png?w=1200&amp;fit=max&amp;auto=format 1200w, https://cdn.sanity.io/images/uozoklvj/production/5303fe8347e528c149e95fe23c2fa88cda097dd4-666x1184.png?w=1920&amp;fit=max&amp;auto=format 1920w, https://cdn.sanity.io/images/uozoklvj/production/5303fe8347e528c149e95fe23c2fa88cda097dd4-666x1184.png?w=2048&amp;fit=max&amp;auto=format 2048w, https://cdn.sanity.io/images/uozoklvj/production/5303fe8347e528c149e95fe23c2fa88cda097dd4-666x1184.png?w=3840&amp;fit=max&amp;auto=format 3840w"
+                srcSet="https://cdn.sanity.io/images/uozoklvj/production/5303fe8347e528c149e95fe23c2fa88cda097dd4-666x1184.png?w=256&amp;fit=max&amp;auto=format 256w, https://cdn.sanity.io/images/uozoklvj/production/5303fe8347e528c149e95fe23c2fa88cda097dd4-666x1184.png?w=384&amp;fit=max&amp;auto=format 384w, https://cdn.sanity.io/images/uozoklvj/production/5303fe8347e528c149e95fe23c2fa88cda097dd4-666x1184.png?w=640&amp;fit=max&amp;auto=format 640w, https://cdn.sanity.io/images/uozoklvj/production/5303fe8347e528c149e95fe23c2fa88cda097dd4-666x1184.png?w=750&amp;fit=max&amp;auto=format 750w, https://cdn.sanity.io/images/uozoklvj/production/5303fe8347e528c149e95fe23c2fa88cda097dd4-666x1184.png?w=828&amp;fit=max&amp;auto=format 828w, https://cdn.sanity.io/images/uozoklvj/production/5303fe8347e528c149e95fe23c2fa88cda097dd4-666x1184.png?w=1080&amp;fit=max&amp;auto=format 1080w, https://cdn.sanity.io/images/uozoklvj/production/5303fe8347e528c149e95fe23c2fa88cda097dd4-666x1184.png?w=1200&amp;fit=max&amp;auto=format 1200w, https://cdn.sanity.io/images/uozoklvj/production/5303fe8347e528c149e95fe23c2fa88cda097dd4-666x1184.png?w=1920&amp;fit=max&amp;auto=format 1920w, https://cdn.sanity.io/images/uozoklvj/production/5303fe8347e528c149e95fe23c2fa88cda097dd4-666x1184.png?w=2048&amp;fit=max&amp;auto=format 2048w, https://cdn.sanity.io/images/uozoklvj/production/5303fe8347e528c149e95fe23c2fa88cda097dd4-666x1184.png?w=3840&amp;fit=max&amp;auto=format 3840w"
                 src="https://cdn.sanity.io/images/uozoklvj/production/5303fe8347e528c149e95fe23c2fa88cda097dd4-666x1184.png?w=3840&amp;fit=max&amp;auto=format"
               />
             </div>
