@@ -4,7 +4,7 @@ const MainFooter = () => {
   return (
     <div>
       <Banner />
-      <div className="flex h-[80px] w-full">
+      <div className="mt-8 flex h-[40px] w-full md:h-[80px]">
         <div className="w-[20%] border border-l-0 border-[#D7D7D7]" />
         <div className="w-[10%] border border-l-0 border-[#D7D7D7]" />
         <div className="w-[20%] border border-l-0 border-[#D7D7D7]" />

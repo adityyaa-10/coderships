@@ -2,15 +2,6 @@
 import Link from "next/link";
 import { useState } from "react";
 import { usePathname } from "next/navigation";
-import dynamic from "next/dynamic";
-
-// Dynamic imports for each page
-const DynamicAbout = dynamic(() => import("@/app/about/page"));
-const DynamicForStudents = dynamic(() => import("@/app/forstudents/page"));
-const DynamicCoderships = dynamic(() => import("@/app/coderships/page"));
-const DynamicFeatures = dynamic(() => import("@/app/features/page"));
-const DynamicMembership = dynamic(() => import("@/app/membership/page"));
-const DynamicFDDIC = dynamic(() => import("@/app/fddic/page"));
 
 export default function Navbar() {
   const links = [
